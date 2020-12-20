@@ -19,7 +19,7 @@ limitations under the License.
 -->
 
 <div class="image" align="center">
-    <img src="https://cdn.rawgit.com/stdlib-js/esm/3cce9c709008d4ef37a78e41a835dcb5d2e1089e/docs/assets/logo_header.png" alt="stdlib logo">
+    <img src="https://raw.githubusercontent.com/stdlib-js/esm/main/docs/assets/logo_header.png" alt="stdlib logo">
     <br>
 </div>
 
