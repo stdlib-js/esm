@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../math/base/assert/is-nonnegative-integer.js";import a from"./../../../../math/base/assert/is-nan.js";import r from"./../../../../math/base/special/round.js";import s from"./mean.js";import o from"./../../../../constants/math/float64-pinf.js";var m=t,e=a,n=r,i=s,f=o;function p(t,a){return e(t)||e(a)||a<0||a>1||!m(t)||t===f?NaN:n(i(t,a))}var j=p;export default j;
+//# sourceMappingURL=median.js.map

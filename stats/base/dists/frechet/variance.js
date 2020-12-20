@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/assert/is-nan.js";import t from"./../../../../math/base/special/gamma.js";import r from"./../../../../constants/math/float64-pinf.js";var m=a,s=t,o=r;function n(a,t,r){var n;return m(a)||m(t)||m(r)||a<=0||t<=0?NaN:a<=2?o:(n=s(1-1/a),t*t*(s(1-2/a)-n*n))}var e=n;export default e;
+//# sourceMappingURL=variance.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../strided/base/smap.js";import a from"./../../base/special/deg2radf.js";var n=e,o=a;function t(r,e,a,t,d){return n(r,e,a,t,d,o)}var d=e.ndarray,i=a;function s(r,e,a,n,o,t,s){return d(r,e,a,n,o,t,s,i)}var f=r,m=t,p=s;f(m,"ndarray",p);export default m;
+//# sourceMappingURL=sdeg2rad.js.map

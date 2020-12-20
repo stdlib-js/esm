@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-buffer.js";var e=r;function a(r){var a,t;if(!e(r))throw new TypeError("invalid argument. Must provide a Buffer. Value: `"+r+"`.");for((a={}).type="Buffer",a.data=[],t=0;t<r.length;t++)a.data.push(r[t]);return a}var t=a;export default t;
+//# sourceMappingURL=to-json.js.map

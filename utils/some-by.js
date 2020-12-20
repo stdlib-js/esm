@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-collection.js";import e from"./../assert/is-positive-integer.js";import t from"./../assert/is-function.js";var i=r,n=e.isPrimitive,o=t;function a(r,e,t,a){var s,u,m;if(!i(r))throw new TypeError("invalid argument. First argument must be a collection. Value: `"+r+"`.");if(!n(e))throw new TypeError("invalid argument. Second argument must be a positive integer. Value: `"+e+"`.");if(!o(t))throw new TypeError("invalid argument. Third argument must be a function. Value: `"+t+"`.");for(u=r.length,s=0,m=0;m<u;m++){if(t.call(a,r[m],m,r)&&(s+=1)===e)return!0;u=r.length}return!1}var s=a;export default s;
+//# sourceMappingURL=some-by.js.map

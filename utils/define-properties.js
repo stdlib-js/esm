@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/has-define-properties-support.js";import e from"./../assert/is-object.js";import t from"./keys.js";import o from"./define-property.js";var i=Object.defineProperties,s=e,n=t,a=o;function p(r,e){var t,o,i;if(!s(r))throw new TypeError("invalid argument. First argument must be an object. Value: `"+r+"`.");if(!s(e))throw new TypeError("invalid argument. Second argument must be an object of property descriptors. Value: `"+e+"`.");for(t=n(e),i=0;i<t.length;i++)o=t[i],a(r,o,e[o]);return r}var m,f=r,u=i,d=p,j=m=f()?u:d;export default j;
+//# sourceMappingURL=define-properties.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../special/abs.js";import a from"./../special/max.js";import o from"./../../../constants/math/float64-max.js";import r from"./../../../constants/math/float64-smallest-normal.js";import m from"./../../../constants/math/float64-eps.js";var s=t,n=a,f=o,l=r,e=m,i=.5*f,p=l*(2/m),c=2/(m*m);function j(t,a,o){var r,m,f,l;return m=1,(r=n(s(a),s(o)))>=i?(a*=.5,o*=.5,m*=.5):r<=p&&(a*=c,o*=c,m*=c),s(o)<=s(a)?(l=1/(a+o*(f=o/a)),t[0]=l,t[1]=-f*l):(l=1/(o+a*(f=a/o)),t[0]=f*l,t[1]=-l),t[0]*=m,t[1]*=m,t}var u=j;function h(t,a,o){return 2===arguments.length?u([0,0],t,a):u(t,a,o)}var v=h;export default v;
+//# sourceMappingURL=inv.js.map

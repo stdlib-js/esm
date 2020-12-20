@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-read-only-property.js";import o from"./ops/add.js";import t from"./ops/divide.js";import i from"./ops/mod.js";import p from"./ops/multiply.js";import m from"./ops/subtract.js";var e=r,s={};e(s,"iterAdd",o),e(s,"iterDivide",t),e(s,"iterMod",i),e(s,"iterMultiply",p),e(s,"iterSubtract",m);export default s;
+//# sourceMappingURL=ops.js.map

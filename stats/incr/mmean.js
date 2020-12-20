@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-positive-integer.js";import e from"./../../math/base/assert/is-nan.js";var i=r.isPrimitive,t=e;function a(r){var e,a,n,s,f;if(!i(r))throw new TypeError("invalid argument. Must provide a positive integer. Value: `"+r+"`.");return a=new Array(r),n=0,f=-1,s=0,function(i){var o;if(0===arguments.length)return 0===s?null:n;if(f=(f+1)%r,t(i))s=r,n=NaN;else if(s<r)n+=(e=i-n)/(s+=1);else if(t(a[f])){for(s=1,n=i,o=0;o<r;o++)if(o!==f){if(t(a[o])){s=r,n=NaN;break}s+=1,e=a[o]-n,n+=e/s}}else!1===t(n)&&(e=i-a[f],n+=e/r);return a[f]=i,n}}var n=a;export default n;
+//# sourceMappingURL=mmean.js.map

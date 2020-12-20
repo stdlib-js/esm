@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../../utils/define-nonenumerable-read-only-property.js";import t from"./../../../../math/base/assert/is-nan.js";import n from"./../../../../math/base/special/gammaincinv.js";import a from"./../../../../utils/constant-function.js";import e from"./../degenerate/quantile.js";var o=t,i=n;function m(r,t,n){return o(t)||o(n)||o(r)||t<0||n<=0||r<0||r>1?NaN:0===t?0:1/n*i(r,t)}var f=a,s=n,u=e.factory,c=t;function p(r,t){return c(r)||c(t)||r<0||t<=0?f(NaN):0===r?u(0):function(n){if(c(n)||n<0||n>1)return NaN;return 1/t*s(n,r)}}var l=r,N=m,j=p;l(N,"factory",j);export default N;
+//# sourceMappingURL=quantile.js.map

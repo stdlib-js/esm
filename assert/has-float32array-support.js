@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./is-float32array.js";import r from"./../constants/math/float64-pinf.js";var a="function"==typeof Float32Array?Float32Array:null,o=t,n=r,f=a;function e(){var t,r;if("function"!=typeof f)return!1;try{r=new f([1,3.14,-3.14,5e40]),t=o(r)&&1===r[0]&&3.140000104904175===r[1]&&-3.140000104904175===r[2]&&r[3]===n}catch(r){t=!1}return t}var i=e;export default i;
+//# sourceMappingURL=has-float32array-support.js.map

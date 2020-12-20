@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-typed-array.js";import t from"./is-array.js";import i from"./is-number.js";import e from"./../math/base/utils/absolute-difference.js";import o from"./../constants/math/float64-sqrt-eps.js";var f=r,s=t,a=i.isPrimitive,m=e,n=o;function u(r){var t,i;if(s(r)){for(t=0,i=0;i<r.length;i++){if(!a(r[i])||r[i]>1||r[i]<0)return!1;t+=r[i]}return m(t,1)<=n}if(f(r)){for(t=0,i=0;i<r.length;i++){if(r[i]>1||r[i]<0)return!1;t+=r[i]}return m(t,1)<=n}return!1}var p=u;export default p;
+//# sourceMappingURL=is-unity-probability-array.js.map

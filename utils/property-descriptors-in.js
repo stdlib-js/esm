@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./property-descriptors.js";import e from"./property-symbols.js";import o from"./get-prototype-of.js";import t from"./keys.js";import p from"./define-property.js";import f from"./../assert/has-own-property.js";var i=r,l=e,m=o,a=t,s=p,n=f;function u(r){var e,o,t,p,f;if(null==r)return{};t=Object(r),e={};do{for(p=i(t),o=a(p),f=0;f<o.length;f++)n(e,o[f])||s(e,o[f],{configurable:!0,enumerable:!0,writable:!0,value:p[o[f]]});for(o=l(p),f=0;f<o.length;f++)n(e,o[f])||s(e,o[f],{configurable:!0,enumerable:!0,writable:!0,value:p[o[f]]});t=m(t)}while(t);return e}var b=u;export default b;
+//# sourceMappingURL=property-descriptors-in.js.map

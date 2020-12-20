@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../strided/base/smap.js";import a from"./../../base/special/sqrtf.js";var n=e,t=a;function o(r,e,a,o,s){return n(r,e,a,o,s,t)}var s=e.ndarray,i=a;function f(r,e,a,n,t,o,f){return s(r,e,a,n,t,o,f,i)}var m=r,p=o,d=f;m(p,"ndarray",d);export default p;
+//# sourceMappingURL=ssqrt.js.map

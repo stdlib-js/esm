@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";function n(r,n,e){var f,t,a,u,o,i,N;if(r<=0)return NaN;if(1===r||0===e)return n[0];for(N=f=e<0?(1-r)*e:0,a=0,o=0,i=0;i<r;i++)(t=n[f])==t&&(o+=1,a+=t),f+=e;if(0===o)return NaN;for(a/=o,u=0,f=N,i=0;i<r;i++)(t=n[f])==t&&(u+=t-a),f+=e;return a+u/o}function e(r,n,e,f){var t,a,u,o,i,N;if(r<=0)return NaN;if(1===r||0===e)return n[f];for(t=f,u=0,i=0,N=0;N<r;N++)(a=n[t])==a&&(i+=1,u+=a),t+=e;if(0===i)return NaN;for(u/=i,t=f,o=0,N=0;N<r;N++)(a=n[t])==a&&(o+=a-u),t+=e;return u+o/i}var f=r,t=n,a=e;f(t,"ndarray",a);var u=t;export default u;
+//# sourceMappingURL=nanmeanpn.js.map

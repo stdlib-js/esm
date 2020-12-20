@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+function r(r,n,e){var t,o,a;if(t=n.length,o=1,"column-major"===e)for(a=0;a<t;a++)r[a]=o,o*=n[a];else for(a=t-1;a>=0;a--)r[a]=o,o*=n[a];return r}var n=r;function e(r,e,t){return 2===arguments.length?n(new Array(r.length),r,e):n(r,e,t)}var t=e;export default t;
+//# sourceMappingURL=shape2strides.js.map

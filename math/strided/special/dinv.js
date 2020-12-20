@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../strided/base/dmap.js";import a from"./../../base/special/inv.js";var n=e,o=a;function t(r,e,a,t,i){return n(r,e,a,t,i,o)}var i=e.ndarray,d=a;function m(r,e,a,n,o,t,m){return i(r,e,a,n,o,t,m,d)}var p=r,s=t,f=m;p(s,"ndarray",f);export default s;
+//# sourceMappingURL=dinv.js.map

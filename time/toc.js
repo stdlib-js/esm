@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nonnegative-integer-array.js";import e from"./tic.js";var n=r.primitives,t=e;function a(r){var e,a,i=t();if(!n(r))throw new TypeError("invalid argument. Must provide an array of nonnegative integers. Value: `"+r+"`.");if(2!==r.length)throw new RangeError("invalid argument. Input array must have length `2`.");return e=i[0]-r[0],a=i[1]-r[1],e>0&&a<0?(e-=1,a+=1e9):e<0&&a>0&&(e+=1,a-=1e9),[e,a]}var i=a;export default i;
+//# sourceMappingURL=toc.js.map

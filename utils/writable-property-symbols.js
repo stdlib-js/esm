@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./property-symbols.js";import t from"./../assert/is-writable-property.js";var e=r,o=t;function l(r){var t,l,n;if(null==r)return[];for(t=e(Object(r)),n=0,l=0;l<t.length;l++)o(r,t[l])&&(t[n]=t[l],n+=1);return t.length=n,t}var n=l;export default n;
+//# sourceMappingURL=writable-property-symbols.js.map

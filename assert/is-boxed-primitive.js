@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./is-boolean.js";import r from"./is-number.js";import t from"./is-string.js";import i from"./is-symbol.js";var s=o.isObject,e=r.isObject,m=t.isObject,j=i.isObject;function b(o){return"object"==typeof o&&(s(o)||e(o)||m(o)||j(o))}var f=b;export default f;
+//# sourceMappingURL=is-boxed-primitive.js.map

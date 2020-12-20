@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../constants/math/float16-max-safe-integer.js";import a from"./../constants/math/float32-max-safe-integer.js";import e from"./../constants/math/float64-max-safe-integer.js";var r=t,o=a,n=e;function s(t){switch(t){case"float64":return n;case"float32":return o;case"float16":return r;default:throw new TypeError("invalid argument. Must provide a recognized type. Value: `"+t+"`.")}}var f=s;export default f;
+//# sourceMappingURL=safe-int-max.js.map

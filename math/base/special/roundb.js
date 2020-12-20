@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import o from"./../assert/is-infinite.js";import t from"./pow.js";import i from"./round.js";import s from"./roundn.js";var m=r,n=o,a=t,f=i,p=s;function e(r,o,t){var i,s;return m(r)||m(o)||m(t)||t<=0||n(o)||n(t)?NaN:n(r)||0===r?r:10===t?p(r,o):0===o||1===t?f(r):(s=a(t,-o),n(s)?r:(i=f(r*s)/s,n(i)?r:i))}var j=e;export default j;
+//# sourceMappingURL=roundb.js.map

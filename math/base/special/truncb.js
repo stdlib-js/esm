@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import t from"./../assert/is-infinite.js";import o from"./pow.js";import i from"./trunc.js";import s from"./truncn.js";var m=r,n=t,a=o,f=i,p=s;function e(r,t,o){var i,s;return m(r)||m(t)||m(o)||o<=0||n(t)||n(o)?NaN:n(r)||0===r?r:10===o?p(r,t):0===t||1===o?f(r):(s=a(o,-t),n(s)?r:(i=f(r*s)/s,n(i)?r:i))}var j=e;export default j;
+//# sourceMappingURL=truncb.js.map

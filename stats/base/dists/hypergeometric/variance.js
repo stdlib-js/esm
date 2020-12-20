@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../math/base/assert/is-nonnegative-integer.js";import a from"./../../../../constants/math/float64-pinf.js";var r=t,n=a;function e(t,a,e){return!r(t)||!r(a)||!r(e)||t===n||a===n||a>t||e>t?NaN:e*(a/t)*((t-a)/t)*((t-e)/(t-1))}var o=e;export default o;
+//# sourceMappingURL=variance.js.map

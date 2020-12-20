@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../math/base/assert/is-nan.js";import a from"./../../../../math/base/special/pow.js";import o from"./../../../../constants/math/float64-ln-two.js";var r=t,s=a,m=o;function n(t,a){return r(t)||r(a)||t<=0||a<=0?NaN:a*s(m,1/t)}var e=n;export default e;
+//# sourceMappingURL=median.js.map

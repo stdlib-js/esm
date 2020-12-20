@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-iterator-like.js";import e from"./../assert/is-positive-integer.js";var t=r,i=e.isPrimitive;function a(r,e){var a,n;if(!t(r))throw new TypeError("invalid argument. First argument must be an iterator. Value: `"+r+"`.");if(!i(e))throw new TypeError("invalid argument. Second argument must be a positive integer. Value: `"+e+"`.");for(a=0;;){if((n=r.next()).value&&(a+=1)===e)return!0;if(n.done)break}return!1}var n=a;export default n;
+//# sourceMappingURL=some.js.map

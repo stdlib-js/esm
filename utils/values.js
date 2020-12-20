@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./keys.js";import e from"./../assert/is-object-like.js";var t=r,o=e;function a(r){var e,a,i,n;if(!o(r))throw new TypeError("invalid argument. Must provide an object-like value. Value: `"+r+"`.");for(i=(e=t(r)).length,a=new Array(i),n=0;n<i;n++)a[n]=r[e[n]];return a}var i=a;export default i;
+//# sourceMappingURL=values.js.map

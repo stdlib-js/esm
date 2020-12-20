@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../special/sincos.js";import t from"./../special/exp.js";var e=r,n=t;function o(r,t,o){var a,i;return e(r,t),a=r[0],0!==o&&(a*=i=n(-o),r[1]*=i),r[0]=r[1],r[1]=a,r}var a=o;function i(r,t,e){return 2===arguments.length?a([0,0],r,t):a(r,t,e)}var p=i;export default p;
+//# sourceMappingURL=cis.js.map

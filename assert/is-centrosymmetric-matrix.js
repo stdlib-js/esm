@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-square-matrix.js";import t from"./../math/base/special/floor.js";import e from"./../math/base/assert/is-odd.js";var o=r,a=t,f=e;function i(r){var t,e,i,s,m,u;if(!o(r))return!1;for(e=r.shape[0],i=a(e/2),t=e-1,m=0;m<i;m++)for(s=t-m,u=0;u<e;u++)if(r.get(m,u)!==r.get(s,t-u))return!1;if(f(e))for(u=0;u<i;u++)if(r.get(m,u)!==r.get(i,t-u))return!1;return!0}var s=i;export default s;
+//# sourceMappingURL=is-centrosymmetric-matrix.js.map

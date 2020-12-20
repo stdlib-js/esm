@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../vendor/os.js";import o from"./../assert/is-function.js";import s from"./../process/env.js";import m from"./../assert/is-windows.js";import t from"./platform.js";import i from"./../process/getuid.js";var e=s,n=m,E=t,f=i;function p(){var r,o;return n?(r=e.USERPROFILE||e.HOMEDRIVE+e.HOMEPATH||e.HOME)||null:(r=e.HOME)?r:(o=e.LOGNAME||e.USER||e.LNAME||e.USERNAME,"darwin"===E?o?"/Users/"+o:null:0===f()?"/root":o?"/home/"+o:null)}var a=r,l=o,u=p,d=l(a.homedir)?a.homedir:u;export default d;
+//# sourceMappingURL=homedir.js.map

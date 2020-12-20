@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";import t from"./../assert/is-iterator-like.js";var e=r,n=t;function a(r){var t,a,i;if(!e(r))throw new TypeError("invalid argument. First argument must be a function. Value: `"+r+"`.");for(a=arguments.length,t=[],i=1;i<a;i++)t.push(arguments[i]);return o;function o(e){var i,o;if(!n(e))throw new TypeError("invalid argument. Must provide an an iterator. Value: `"+e+"`.");for(i=[e],o=0;o<a;o++)i.push(t[o]);return r.apply(null,i)}}var i=a;export default i;
+//# sourceMappingURL=pipeline-thunk.js.map

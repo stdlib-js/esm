@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../math/base/assert/is-nonnegative-integer.js";import a from"./../../../../math/base/special/sqrt.js";import r from"./../../../../constants/math/float64-pinf.js";var s=t,e=a,o=r;function n(t,a,r){return!s(t)||!s(a)||!s(r)||t===o||a===o||a>t||r>t?NaN:(t-2*a)*e(t-1)*(t-2*r)/(e(r*a*(t-a)*(t-r))*(t-2))}var i=n;export default i;
+//# sourceMappingURL=skewness.js.map

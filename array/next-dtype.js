@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../utils/keys.js";import n from"./../assert/has-own-property.js";var i=-1,r="float64",u=-1,o="int32",e="int16",a=-1,f="uint32",l="uint16",s="uint16",p=-1,c={float64:i,float32:r,int32:u,int16:o,int8:e,uint32:a,uint16:f,uint8:l,uint8c:s,generic:p},m=t,g=n,h=c;function v(){var t,n,i,r;for(i={},n=(t=m(h)).length,r=0;r<n;r++)i[t[r]]=h[t[r]];return i}function j(t){return 0===arguments.length?v():g(h,t)?h[t]:null}var y=j;export default y;
+//# sourceMappingURL=next-dtype.js.map

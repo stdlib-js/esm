@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";var a=r,t=65535;function n(){var r,n,e,o,s,f,i,u,v,l,m;return 3===arguments.length?(r=arguments[0],u=arguments[1],v=arguments[2]):(r=[0,0],u=arguments[0],v=arguments[1]),a(u)||a(v)?NaN:(e=((l=(f=((u|=0)&t)>>>0)*(i=((v|=0)&t)>>>0)>>>0)&t)>>>0,n=(l=(o=u>>16|0)*i+(m=l>>>16>>>0)>>>0)>>16>>>0,m=(l=f*(s=v>>16|0)+((l&t)>>>0)>>>0)>>16>>>0,r[0]=o*s+n+m|0,r[1]=(l<<16)+e|0,r)}var e=n;export default e;
+//# sourceMappingURL=imuldw.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../number/float64/base/to-float32.js";var n=e;function t(r,e,t,o){var f,a,u;if(r<=0)return 0;if(1===r||0===o)return n(e+t[0]);for(a=o<0?(1-r)*o:0,f=0,u=0;u<r;u++)f=n(f+n(e+t[a])),a+=o;return f}var o=e;function f(r,e,n,t,f){var a,u,i;if(r<=0)return 0;if(1===r||0===t)return o(e+n[0]);for(u=f,a=0,i=0;i<r;i++)a=o(a+o(e+n[u])),u+=t;return a}var a=r,u=t,i=f;a(u,"ndarray",i);export default u;
+//# sourceMappingURL=sapxsumors.js.map

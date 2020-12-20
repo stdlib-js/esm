@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";import o from"./ctor.js";import e from"./../assert/is-collection.js";var t=r,i=o,a=t(i.from),n=e,u=o;function f(r){if(!n(r))throw new TypeError("invalid argument. Must provide an array-like object. Value: `"+r+"`");return u.from(r)}var s=e,m=o;function l(r){if(!s(r))throw new TypeError("invalid argument. Must provide an array-like object. Value: `"+r+"`");return new m(r)}var c,p=a,v=f,d=l,j=c=p?v:d;export default j;
+//# sourceMappingURL=from-array.js.map

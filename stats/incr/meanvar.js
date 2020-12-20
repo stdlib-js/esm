@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-array-like-object.js";import e from"./../../math/base/assert/is-nan.js";var t=r,a=e;function n(r){var e,n,i,u,o;if(0===arguments.length)e=[0,0];else{if(!t(r))throw new TypeError("invalid argument. Output argument must be an array-like object. Value: `"+r+"`.");e=r}return u=0,i=0,o=0,s;function s(r){return 0===arguments.length?0===o?null:(e[0]=i,1===o?(a(u)?e[1]=NaN:e[1]=0,e):(e[1]=u/(o-1),e)):(u+=(n=r-i)*(r-(i+=n/(o+=1))),e[0]=i,o<2?(a(u)?e[1]=NaN:e[1]=0,e):(e[1]=u/(o-1),e))}}var i=n;export default i;
+//# sourceMappingURL=meanvar.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./property-symbols.js";import o from"./get-prototype-of.js";import t from"./../assert/is-nonenumerable-property.js";import e from"./../assert/has-own-property.js";var p=r,s=o,m=t,n=e;function f(r){var o,t,e,f,a,i;if(null==r)return[];e=Object(r),o=[],t={};do{for(f=p(e),i=0;i<f.length;i++)a=f[i],!1===n(t,a)&&m(e,a)&&o.push(a),t[a]=!0;e=s(e)}while(e);return o}var a=f;export default a;
+//# sourceMappingURL=nonenumerable-property-symbols-in.js.map

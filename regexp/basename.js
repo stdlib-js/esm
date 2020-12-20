@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../utils/define-nonenumerable-read-only-property.js";import r from"./../utils/copy.js";import s from"./../assert/is-windows.js";import e from"./basename-posix.js";import i from"./basename-windows.js";var m,p=o,t=r,a=s,n=e,f=i;p(m=t(m=a?f:n),"posix",n),p(m,"win32",f);var d=m;export default d;
+//# sourceMappingURL=basename.js.map

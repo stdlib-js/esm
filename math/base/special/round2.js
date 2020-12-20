@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../assert/is-nan.js";import t from"./../assert/is-infinite.js";import r from"./pow.js";import m from"./floor.js";import s from"./ceil.js";import a from"./log2.js";import n from"./../../../constants/math/float64-max-base2-exponent.js";import i from"./../../../constants/math/float64-min-base2-exponent-subnormal.js";import f from"./../../../constants/math/float64-pinf.js";var p=o,e=t,j=r,l=m,c=s,u=a,x=n,b=i,h=f,v=j(2,x),d=v/2;function g(o){var t,r,m,s,a,n;return p(o)||e(o)||0===o?o:(o<0?(o=-o,t=-1):t=1,(n=u(o))===b?o:(r=l(n),m=c(n),r===x?o-v>=d?t*h:t*v:(s=j(2,r))+((a=j(2,m))-s)/2>o?t*s:t*a))}var w=g;export default w;
+//# sourceMappingURL=round2.js.map

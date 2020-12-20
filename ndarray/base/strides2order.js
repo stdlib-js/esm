@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../math/base/special/abs.js";var o=r;function n(r){var n,a,e,t,f,m;if(0===(a=r.length))return"none";for(n=!0,e=!0,t=o(r[0]),m=1;m<a;m++){if(f=o(r[m]),n&&f<t?n=!1:e&&f>t&&(e=!1),!e&&!n)return"none";t=f}return e&&n?"both":e?"row-major":"column-major"}var a=n;export default a;
+//# sourceMappingURL=strides2order.js.map

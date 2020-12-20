@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import i from"./../assert/is-infinite.js";import o from"./pow.js";import t from"./ceil.js";import s from"./ceiln.js";var m=r,a=i,e=o,f=t,n=s;function p(r,i,o){var t,s;return m(r)||m(i)||m(o)||o<=0||a(i)||a(o)?NaN:a(r)||0===r?r:10===o?n(r,i):0===i||1===o?f(r):(s=e(o,-i),a(s)?r:(t=f(r*s)/s,a(t)?r:t))}var j=p;export default j;
+//# sourceMappingURL=ceilb.js.map

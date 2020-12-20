@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./is-nonnegative-integer.js";import i from"./../utils/define-nonenumerable-read-only-property.js";import r from"./tools/array-like-function.js";var o=e,t=i,n=r,s=n(o);t(s,"primitives",n(o.isPrimitive)),t(s,"objects",n(o.isObject));export default s;
+//# sourceMappingURL=is-nonnegative-integer-array.js.map

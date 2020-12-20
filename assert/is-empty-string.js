@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import e from"./is-string.js";function t(r){return""===r}var i=e.isObject;function n(r){return i(r)&&""===r.valueOf()}var o=t,u=n;function f(r){return o(r)||u(r)}var s=r,a=f,m=t,c=n;s(a,"isPrimitive",m),s(a,"isObject",c);export default a;
+//# sourceMappingURL=is-empty-string.js.map

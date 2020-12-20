@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../../utils/define-nonenumerable-read-only-property.js";import t from"./../../../../math/base/assert/is-nan.js";import a from"./../../../../math/base/special/gamma.js";import n from"./../../../../math/base/special/exp.js";import e from"./../../../../utils/constant-function.js";var o=t,i=a,m=n;function s(r,t,a){return o(r)||o(t)||o(a)||a<=0||r>=1/a?NaN:i(1-a*r)*m(t*r)}var f=e,u=t,p=a,c=n;function l(r,t){return u(r)||u(t)||t<=0?f(NaN):function(a){if(a>=1/t)return NaN;return p(1-t*a)*c(r*a)}}var N=r,j=s,b=l;N(j,"factory",b);export default j;
+//# sourceMappingURL=mgf.js.map

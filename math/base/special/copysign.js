@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../number/float64/base/to-words.js";import o from"./../../../number/float64/base/get-high-word.js";import t from"./../../../number/float64/base/from-words.js";var a=r,e=o,m=t,f=2147483648,s=2147483647,b=[0,0];function n(r,o){var t,n;return a(b,r),t=b[0],t&=s,n=e(o),m(t|=n&=f,b[1])}var u=n;export default u;
+//# sourceMappingURL=copysign.js.map

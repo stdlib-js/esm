@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import i from"./replace.js";var u=r.isPrimitive,t=i,e=/^[\u0020\f\n\r\t\v\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]+/;function a(r){if(!u(r))throw new TypeError("invalid argument. Must provide a string primitive. Value: `"+r+"`.");return t(r,e,"")}var f=a;export default f;
+//# sourceMappingURL=left-trim.js.map

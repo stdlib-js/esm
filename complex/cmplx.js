@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./float64.js";import t from"./float32.js";var a=r,e=t,o={float64:a,float32:e},f=o;function n(r,t,a){var e;if(arguments.length>2){if(e=f[a])return new e(r,t);throw new TypeError("invalid argument. Must provide a recognized data type. Value: `"+a+"`.")}return new f.float64(r,t)}var i=n;export default i;
+//# sourceMappingURL=cmplx.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";function n(r,n,e,t){var f,u,o;if(r<=0)return 0;if(1===r||0===t)return n+e[0];for(u=t<0?(1-r)*t:0,f=0,o=0;o<r;o++)f+=n+e[u],u+=t;return f}function e(r,n,e,t,f){var u,o,a;if(r<=0)return 0;if(1===r||0===t)return n+e[f];for(o=f,u=0,a=0;a<r;a++)u+=n+e[o],o+=t;return u}var t=r,f=n,u=e;t(f,"ndarray",u);var o=f;export default o;
+//# sourceMappingURL=gapxsumors.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/assert/is-nan.js";import t from"./../../../../math/base/special/ln.js";import r from"./../../../../constants/math/float64-eulergamma.js";var m=a,s=t,o=r;function e(a,t){return m(a)||m(t)||a<=0||t<=0?NaN:o*(1-1/a)+s(t/a)+1}var n=e;export default n;
+//# sourceMappingURL=entropy.js.map

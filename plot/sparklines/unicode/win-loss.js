@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../utils/inherit.js";import r from"./../base/ctor.js";var i=["└","┴"],e=["┌","┬"],n="╵",a="╷",s=" ";function o(){var t,r,o,h,l;if(0===(r=this._data.length))return"";for(t="",l=0;l<r;l++)h=this._data[l],this._isDefined(h,l)?t+=2===h?2===o||-2===o?i[1]:i[0]:1===h?n:-1===h?a:-2===h?2===o||-2===o?e[1]:e[0]:s:t+=s,o=h;return t}var h=t,l=r;function f(){var t;return t=arguments.length,this instanceof f?(0===t?l.call(this):1===t?l.call(this,arguments[0]):l.call(this,arguments[0],arguments[1]),this):0===t?new f:1===t?new f(arguments[0]):new f(arguments[0],arguments[1])}h(f,l),f.prototype._render=o;var c=f;export default c;
+//# sourceMappingURL=win-loss.js.map

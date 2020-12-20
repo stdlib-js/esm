@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import e from"./../../number/float64/base/to-float32.js";var n=e;function t(r,e,t,a){var o,f,u,i,l,m,p;if(m=r-e,r<=0||m<=0)return NaN;if(1===r||0===a)return 0;for(i=a<0?(1-r)*a:0,u=0,f=0,p=0;p<r;p++)l=t[i],o=n(l-f),f=n(f+n(o/(p+1))),u=n(u+n(o*n(l-f))),i+=a;return n(u/m)}var a=e;function o(r,e,n,t,o){var f,u,i,l,m,p,v;if(p=r-e,r<=0||p<=0)return NaN;if(1===r||0===t)return 0;for(l=o,i=0,u=0,v=0;v<r;v++)m=n[l],f=a(m-u),u=a(u+a(f/(v+1))),i=a(i+a(f*a(m-u))),l+=t;return a(i/p)}var f=r,u=t,i=o;f(u,"ndarray",i);export default u;
+//# sourceMappingURL=svariancewd.js.map

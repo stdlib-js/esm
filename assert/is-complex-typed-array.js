@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/constructor-name.js";import o from"./../utils/get-prototype-of.js";import t from"./../array/complex64.js";import e from"./../array/complex128.js";var f=t,m=e,n=[m,f],a=["Complex64Array","Complex128Array"],p=r,i=o,l=n,u=a;function s(r){var o,t;if("object"!=typeof r||null===r)return!1;for(t=0;t<l.length;t++)if(r instanceof l[t])return!0;for(;r;){for(o=p(r),t=0;t<u.length;t++)if(u[t]===o)return!0;r=i(r)}return!1}var c=s;export default c;
+//# sourceMappingURL=is-complex-typed-array.js.map

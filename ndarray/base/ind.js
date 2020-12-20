@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./clamp-index.js";import e from"./wrap-index.js";var n=r,t=e;function a(r,e,a){if("clamp"===a)return n(r,e);if("wrap"===a)return t(r,e);if(r<0||r>e)throw new RangeError("invalid argument. Index must be on the interval: [0,"+e+"]. Value: `"+r+"`.");return r}var i=a;export default i;
+//# sourceMappingURL=ind.js.map

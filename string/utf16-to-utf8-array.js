@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";var s=r.isPrimitive,u=63,t=128,h=192,p=224,e=240,i=1023,a=2048,o=55296,n=57344,v=65536;function d(r){var d,f,g,l;if(!s(r))throw new TypeError("invalid argument. Must provide a string. Value: `"+r+"`.");for(g=r.length,f=[],l=0;l<g;l++)(d=r.charCodeAt(l))<t?f.push(d):d<a?(f.push(h|d>>6),f.push(t|d&u)):d<o||d>=n?(f.push(p|d>>12),f.push(t|d>>6&u),f.push(t|d&u)):(l+=1,d=v+((d&i)<<10|r.charCodeAt(l)&i),f.push(e|d>>18),f.push(t|d>>12&u),f.push(t|d>>6&u),f.push(t|d&u));return f}var f=d;export default f;
+//# sourceMappingURL=utf16-to-utf8-array.js.map

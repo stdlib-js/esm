@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import a from"./../../math/base/assert/is-nanf.js";import e from"./../../math/base/special/abs.js";var n=a,t=e;function o(r,a,e){var o,s;return r<=0?NaN:1===r||0===e?a[0]:(e<0?(o=a[(1-r)*e],s=a[0]):(o=a[0],s=a[(r-1)*e]),n(o)||n(s)?NaN:(o=t(o))>(s=t(s))?o:s)}var s=a,i=e;function m(r,a,e,n){var t,o;return r<=0?NaN:1===r||0===e?a[0]:(t=a[n],o=a[n+(r-1)*e],s(t)||s(o)?NaN:(t=i(t))>(o=i(o))?t:o)}var f=r,N=o,p=m;f(N,"ndarray",p);export default N;
+//# sourceMappingURL=smaxabssorted.js.map

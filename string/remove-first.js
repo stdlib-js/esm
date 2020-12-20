@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import t from"./next-grapheme-cluster-break.js";var i=r.isPrimitive,e=t;function s(r){var t;if(!i(r))throw new TypeError("invalid argument. First argument must be a string primitive. Value: `"+r+"`.");return t=e(r),""===r||-1===t?"":r.substring(t)}var a=s;export default a;
+//# sourceMappingURL=remove-first.js.map

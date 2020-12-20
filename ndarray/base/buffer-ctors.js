@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../buffer/ctor.js";import t from"./../../array/float64.js";import a from"./../../array/float32.js";import i from"./../../array/int16.js";import o from"./../../array/int32.js";import m from"./../../array/int8.js";import n from"./../../array/uint16.js";import f from"./../../array/uint32.js";import u from"./../../array/uint8.js";import p from"./../../array/uint8c.js";var y=r,j=t,s=a,l=i,e=o,c=m,b=n,v=f,d=u,g=p,x={binary:y,float64:j,float32:s,generic:Array,int16:l,int32:e,int8:c,uint16:b,uint32:v,uint8:d,uint8c:g},A=x;function h(r){return A[r]||null}var k=h;export default k;
+//# sourceMappingURL=buffer-ctors.js.map

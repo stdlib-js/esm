@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";function n(r,n,e,t){var a,f,u,o,i,d;if(i=r-n,r<=0||i<=0)return NaN;if(1===r||0===t)return 0;for(f=t<0?(1-r)*t:0,a=0,u=0,d=0;d<r;d++)a+=(o=e[f])*o,u+=o,f+=t;return(a-u/r*u)/i}function e(r,n,e,t,a){var f,u,o,i,d,l;if(d=r-n,r<=0||d<=0)return NaN;if(1===r||0===t)return 0;for(u=a,f=0,o=0,l=0;l<r;l++)f+=(i=e[u])*i,o+=i,u+=t;return(f-o/r*o)/d}var t=r,a=n,f=e;t(a,"ndarray",f);var u=a;export default u;
+//# sourceMappingURL=variancetk.js.map

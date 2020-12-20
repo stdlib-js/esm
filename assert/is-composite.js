@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import e from"./is-number.js";import i from"./../math/base/assert/is-composite.js";var t=e.isPrimitive,n=i;function o(r){return!!t(r)&&n(r)}var s=e.isObject,m=i;function a(r){return!!s(r)&&m(r.valueOf())}var u=o,f=a;function p(r){return u(r)||f(r)}var v=r,c=p,b=o,j=a;v(c,"isPrimitive",b),v(c,"isObject",j);export default c;
+//# sourceMappingURL=is-composite.js.map

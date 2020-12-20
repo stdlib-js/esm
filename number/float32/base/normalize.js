@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../constants/math/float32-smallest-normal.js";import o from"./../../../constants/math/float32-pinf.js";import a from"./../../../constants/math/float32-ninf.js";import r from"./../../../math/base/special/abs.js";import n from"./../../float64/base/to-float32.js";var s=t,m=o,f=a,l=r,i=n,e=8388608;function p(t,o){return o!=o||o===m||o===f?(t[0]=o,t[1]=0,t):0!==o&&l(o)<s?(o=i(o*e),t[0]=o,t[1]=-23,t):(t[0]=o,t[1]=0,t)}var c=p;function h(t,o){return 1===arguments.length?c([0,0],t):c(t,o)}var j=h;export default j;
+//# sourceMappingURL=normalize.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../number/float64/base/to-words.js";import o from"./../../../number/float64/base/get-high-word.js";import t from"./../../../number/float64/base/from-words.js";var a=r,e=o,m=t,f=2147483648,s=[0,0];function b(r,o){var t,b;return a(s,r),t=s[0],b=e(o),m(t^=b&=f,s[1])}var n=b;export default n;
+//# sourceMappingURL=flipsign.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-sharedarraybuffer.js";var e="function"==typeof SharedArrayBuffer?SharedArrayBuffer:null,t=r,f=e;function a(){var r,e,a;if("function"!=typeof f)return!1;try{a=(e=new f(16)).slice(4,8),r=t(e)&&t(a)&&16===e.byteLength&&4===a.byteLength}catch(e){r=!1}return r}var n=a;export default n;
+//# sourceMappingURL=has-sharedarraybuffer-support.js.map

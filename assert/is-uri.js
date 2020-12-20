@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./is-string.js";var a=t.isPrimitive,e=/(?:([^:\/?#]+):)?(?:\/\/([^\/?#]*))?([^?#]*)(?:\?[^#]*)?(?:#.*)?/,i=/[^a-z0-9:\/?#\[\]@!$&'()*+,;=.\-_~%]/i,r=/%[^0-9a-f]/i,s=/%[0-9a-f](:?[^0-9a-f]|$)/i,f=/^\/\//,o=/^[a-z][a-z0-9+\-.]*$/;function n(t){var n,m,v,u;return!!a(t)&&(!i.test(t)&&(!r.test(t)&&!s.test(t)&&(m=(v=t.match(e))[1],n=v[2],u=v[3],!!(m&&m.length&&o.test(m.toLowerCase()))&&!(!n&&f.test(u)))))}var m=n;export default m;
+//# sourceMappingURL=is-uri.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/has-sharedarraybuffer-support.js";var e="function"==typeof SharedArrayBuffer?SharedArrayBuffer:null;function a(r){throw new Error("The current environment does not support SharedArrayBuffers, and, unfortunately, SharedArrayBuffers cannot be polyfilled. For shared memory applications, upgrade your runtime environment to one which supports SharedArrayBuffers.")}var o,n=r,t=e,f=a,u=o=n()?t:f;export default u;
+//# sourceMappingURL=shared-buffer.js.map

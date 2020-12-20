@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";import e from"./ctor.js";import n from"./../assert/is-nonnegative-integer.js";var t=r,i=e,o=t(i.allocUnsafe),a=n,s=e;function u(r){if(!a(r))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+r+"`");return s.allocUnsafe(r)}var f=n,v=e;function l(r){if(!f(r))throw new TypeError("invalid argument. Must provide a nonnegative integer. Value: `"+r+"`");return new v(r)}var g,m=o,p=u,c=l,d=g=m?p:c;export default d;
+//# sourceMappingURL=alloc-unsafe.js.map

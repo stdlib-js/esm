@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import o from"./../assert/is-infinite.js";import s from"./cos.js";import t from"./sin.js";import i from"./abs.js";import m from"./copysign.js";import a from"./../../../constants/math/float64-pi.js";var f=r,n=o,p=s,j=t,e=i,c=m,u=a;function v(r){var o,s;return f(r)||n(r)?NaN:0===(o=e(s=r%2))||1===o?c(0,s):o<.25?j(u*s):o<.75?c(p(u*(o=.5-o)),s):o<1.25?(s=c(1,s)-s,j(u*s)):o<1.75?-c(p(u*(o-=1.5)),s):(s-=c(2,s),j(u*s))}var l=v;export default l;
+//# sourceMappingURL=sinpi.js.map

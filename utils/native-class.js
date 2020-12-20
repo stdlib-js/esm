@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../assert/has-tostringtag-support.js";import r from"./../assert/has-own-property.js";var o=Object.prototype.toString,a=o;function e(t){return a.call(t)}var n="function"==typeof Symbol?Symbol.toStringTag:"",l=r,c=n,i=o;function p(t){var r,o,a;if(null==t)return i.call(t);o=t[c],r=l(t,c);try{t[c]=void 0}catch(r){return i.call(t)}return a=i.call(t),r?t[c]=o:delete t[c],a}var s,u=t,f=e,m=p,y=s=u()?m:f;export default y;
+//# sourceMappingURL=native-class.js.map

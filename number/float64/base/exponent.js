@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./get-high-word.js";import o from"./../../../constants/math/float64-high-word-exponent-mask.js";import r from"./../../../constants/math/float64-exponent-bias.js";var a=t,n=o,m=r;function s(t){var o=a(t);return(o=(o&n)>>>20)-m|0}var e=s;export default e;
+//# sourceMappingURL=exponent.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../number/float64/base/get-high-word.js";import o from"./kernel-tan.js";import t from"./rempio2.js";var e=r,a=o,m=t,f=[0,0],i=2147483647,n=1072243195,p=2146435072,s=1044381696;function u(r){var o,t;return o=e(r),(o&=i)<=n?o<s?r:a(r,0,1):o>=p?NaN:(t=m(r,f),a(f[0],f[1],1-((1&t)<<1)))}var j=u;export default j;
+//# sourceMappingURL=tan.js.map

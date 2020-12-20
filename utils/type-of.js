@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./global.js";import t from"./constructor-name.js";var r=/./,n=o,e=n(),u=e.document&&e.document.childNodes,c=Int8Array,f=r,a=u,i=c;function l(){return"function"==typeof f||"object"==typeof i||"function"==typeof a}var m=t;function p(o){var t;return null===o?"null":"object"===(t=typeof o)?m(o).toLowerCase():t}var s=t;function d(o){return s(o).toLowerCase()}var v=l,y=p,j=d,b=v()?j:y;export default b;
+//# sourceMappingURL=type-of.js.map

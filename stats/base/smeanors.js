@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import a from"./../../number/float64/base/to-float32.js";import o from"./../../blas/ext/base/ssumors.js";var e=a,t=o;function n(r,a,o){return r<=0?NaN:1===r||0===o?a[0]:e(t(r,a,o)/r)}var s=a,f=o.ndarray;function m(r,a,o,e){return r<=0?NaN:1===r||0===o?a[e]:s(f(r,a,o,e)/r)}var u=r,i=n,l=m;u(i,"ndarray",l);export default i;
+//# sourceMappingURL=smeanors.js.map

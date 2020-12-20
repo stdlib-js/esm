@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../assert/is-probability.js";import r from"./../assert/is-nan.js";import o from"./ln.js";import s from"./../../../constants/math/float64-pinf.js";import a from"./../../../constants/math/float64-ninf.js";var n=t,i=r,m=o,f=s,p=a;function e(t){return i(t)?t:n(t)?0===t?p:1===t?f:m(t/(1-t)):NaN}var j=e;export default j;
+//# sourceMappingURL=logit.js.map

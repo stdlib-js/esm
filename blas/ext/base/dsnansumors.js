@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import n from"./../../../math/base/assert/is-nan.js";var e=n;function t(r,n,t){var a,f,o;if(a=0,r<=0)return a;if(1===r||0===t)return e(n[0])?a:n[0];for(f=t<0?(1-r)*t:0,o=0;o<r;o++)!1===e(n[f])&&(a+=n[f]),f+=t;return a}var a=n;function f(r,n,e,t){var f,o,i;if(f=0,r<=0)return f;if(1===r||0===e)return a(n[t])?f:n[t];for(o=t,i=0;i<r;i++)!1===a(n[o])&&(f+=n[o]),o+=e;return f}var o=r,i=t,u=f;o(i,"ndarray",u);export default i;
+//# sourceMappingURL=dsnansumors.js.map

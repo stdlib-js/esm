@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-float64array.js";var t="function"==typeof Float64Array?Float64Array:null,a=r,o=t;function n(){var r,t;if("function"!=typeof o)return!1;try{t=new o([1,3.14,-3.14,NaN]),r=a(t)&&1===t[0]&&3.14===t[1]&&-3.14===t[2]&&t[3]!=t[3]}catch(t){r=!1}return r}var f=n;export default f;
+//# sourceMappingURL=has-float64array-support.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-collection.js";import t from"./index-of.js";var e=r,o=t;function n(r){var t,n,i,a,l,s,u;if(!e(r))throw new TypeError("invalid argument. First argument must be a collection. Value: `"+r+"`.");for(t=0,n=[],a=[],i=r.length,s=0;s<i;s++)l=r[s],t+=1,-1===(u=o(n,l))?(n.push(l),a.push([l,1,0])):a[u][1]+=1;for(i=a.length,s=0;s<i;s++)a[s][2]=a[s][1]/t;return a}var i=n;export default i;
+//# sourceMappingURL=tabulate.js.map

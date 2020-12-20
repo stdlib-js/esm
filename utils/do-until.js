@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";var e=r;function n(r,n,t){var a;if(!e(r))throw new TypeError("invalid argument. First argument must be a function. Value: `"+r+"`.");if(!e(n))throw new TypeError("invalid argument. Second argument must be a function. Value: `"+n+"`.");a=0;do{r.call(t,a),a+=1}while(!n(a))}var t=n;export default t;
+//# sourceMappingURL=do-until.js.map

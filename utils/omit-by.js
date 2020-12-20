@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./keys.js";import e from"./../assert/is-function.js";var t=r,n=e;function o(r,e){var o,a,u,i;if("object"!=typeof r||null===r)throw new TypeError("invalid argument. First argument must be an object. Value: `"+r+"`.");if(!n(e))throw new TypeError("invalid argument. Second argument must be a function. Value: `"+e+"`.");for(a={},o=t(r),i=0;i<o.length;i++)e(u=o[i],r[u])||(a[u]=r[u]);return a}var a=o;export default a;
+//# sourceMappingURL=omit-by.js.map

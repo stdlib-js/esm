@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import t from"./../assert/is-string-array.js";import i from"./../assert/has-own-property.js";var e=r.isPrimitive,a=t.primitives,n=i;function s(r,t){var i,s,o;if("object"!=typeof r||null===r)throw new TypeError("invalid argument. First argument must be an object. Value: `"+r+"`.");if(i={},e(t))return n(r,t)&&(i[t]=r[t]),i;if(a(t)){for(o=0;o<t.length;o++)s=t[o],n(r,s)&&(i[s]=r[s]);return i}throw new TypeError("invalid argument. Second argument must be either a string primitive or an array of string primitives. Value: `"+t+"`.")}var o=s;export default o;
+//# sourceMappingURL=pick.js.map

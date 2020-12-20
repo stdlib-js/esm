@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./../assert/is-iterator-like.js";import r from"./../assert/is-nonnegative-integer.js";var t=e,i=r.isPrimitive;function n(e,r){var n,a;if(!t(e))throw new TypeError("invalid argument. First argument must be an iterator. Value: `"+e+"`.");if(arguments.length>1){if(!i(r))throw new TypeError("invalid argument. Second argument must be a nonnegative integer. Value: `"+r+"`.");n=r}else n=1e308;for(a=0;a<n&&!e.next().done;)a+=1;return e}var a=n;export default a;
+//# sourceMappingURL=advance.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-read-only-property.js";import a from"./base/binary.js";import m from"./base/dmap.js";import s from"./base/dmskmap.js";import o from"./base/mskunary.js";import p from"./base/nullary.js";import e from"./base/quaternary.js";import t from"./base/quinary.js";import i from"./base/smap.js";import n from"./base/smskmap.js";import y from"./base/ternary.js";import f from"./base/unary.js";var b=r,j={};b(j,"binary",a),b(j,"dmap",m),b(j,"dmskmap",s),b(j,"mskunary",o),b(j,"nullary",p),b(j,"quaternary",e),b(j,"quinary",t),b(j,"smap",i),b(j,"smskmap",n),b(j,"ternary",y),b(j,"unary",f);export default j;
+//# sourceMappingURL=base.js.map

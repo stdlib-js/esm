@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../math/base/special/floor.js";var n=e,o=128;function t(r,e,a,f,i,u,l,m){var p,s,d,v,c;if(r<=0)return u;if(p=i,s=m,r<=o){for(d=0,c=0;c<r;c++)d+=a[p],u[s]=e+d,p+=f,s+=l;return u}return t(v=n(r/2),e,a,f,p,u,l,s),t(r-v,u[s+=(v-1)*l],a,f,p+v*f,u,l,s+l),u}var a=t;function f(r,e,n,o,t,f){return r<=0?t:a(r,e,n,o,o<0?(1-r)*o:0,t,f,f<0?(1-r)*f:0)}var i=r,u=f,l=t;i(u,"ndarray",l);export default u;
+//# sourceMappingURL=dcusumpw.js.map

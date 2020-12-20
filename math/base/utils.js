@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./../../utils/define-read-only-property.js";import f from"./utils/absolute-difference.js";import r from"./utils/float64-epsilon-difference.js";import i from"./utils/relative-difference.js";var o=e,t={};o(t,"absdiff",f),o(t,"epsdiff",r),o(t,"reldiff",i);export default t;
+//# sourceMappingURL=utils.js.map

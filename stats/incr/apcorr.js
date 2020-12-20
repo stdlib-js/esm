@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-number.js";import e from"./pcorr.js";import i from"./../../math/base/special/abs.js";var t=r.isPrimitive,n=e,a=i;function m(r,e){var i;if(arguments.length){if(!t(r))throw new TypeError("invalid argument. First argument must be a number primitive. Value: `"+r+"`.");if(!t(e))throw new TypeError("invalid argument. Second argument must be a number primitive. Value: `"+e+"`.");i=n(r,e)}else i=n();return m;function m(r,e){return a(0===arguments.length?i():i(r,e))}}var u=m;export default u;
+//# sourceMappingURL=apcorr.js.map

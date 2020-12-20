@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import i from"./is-probability.js";import r from"./../utils/define-nonenumerable-read-only-property.js";import o from"./tools/array-like-function.js";var e=i,t=r,s=o,m=s(e);t(m,"primitives",s(e.isPrimitive)),t(m,"objects",s(e.isObject));export default m;
+//# sourceMappingURL=is-probability-array.js.map

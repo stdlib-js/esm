@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-collection.js";import t from"./../assert/is-function.js";var e=r,n=t;function o(r,t,o){var a,i;if(!e(r))throw new TypeError("invalid argument. First argument must be a collection. Value: `"+r+"`.");if(!n(t))throw new TypeError("invalid argument. Second argument must be a function. Value: `"+t+"`.");for(a={},i=r.length-1;i>=0;i--)a[t.call(o,r[i],i)]=r[i];return a}var a=o;export default a;
+//# sourceMappingURL=key-by-right.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../math/base/special/abs.js";var a=e;function n(r,e,n,t,o,f){var i,u,m,p,s,l,v,d,b;if(r<=0)return o;for(u=t<0?(1-r)*t:0,m=f<0?(1-r)*f:0,i=0,p=0,b=0;b<r;b++)v=e+(l=n[u]),d=a(e)>=a(l)?e-v+l:l-v+e,e=v,v=p+d,s=a(p)>=a(d)?p-v+d:d-v+p,p=v,i+=s,o[m]=e+p+i,u+=t,m+=f;return o}var t=e;function o(r,e,a,n,o,f,i,u){var m,p,s,l,v,d,b,c,y;if(r<=0)return f;for(p=o,s=u,m=0,l=0,y=0;y<r;y++)b=e+(d=a[p]),c=t(e)>=t(d)?e-b+d:d-b+e,e=b,b=l+c,v=t(l)>=t(c)?l-b+c:c-b+l,l=b,m+=v,f[s]=e+l+m,p+=n,s+=i;return f}var f=r,i=n,u=o;f(i,"ndarray",u);export default i;
+//# sourceMappingURL=dcusumkbn2.js.map

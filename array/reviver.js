@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-array.js";import t from"./float64.js";import o from"./float32.js";import a from"./int16.js";import i from"./int32.js";import m from"./int8.js";import n from"./uint16.js";import f from"./uint32.js";import p from"./uint8.js";import s from"./uint8c.js";var y=t,j=o,A=a,e=i,u=m,l=n,d=f,U=p,v=s,I={Float64Array:y,Float32Array:j,Int32Array:e,Uint32Array:d,Int16Array:A,Uint16Array:l,Int8Array:u,Uint8Array:U,Uint8ClampedArray:v},c=r,F=I;function w(r,t){var o;return t&&t.type&&c(t.data)&&(o=F[t.type])?new o(t.data):t}var x=w;export default x;
+//# sourceMappingURL=reviver.js.map

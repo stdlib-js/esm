@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../utils/define-nonenumerable-read-only-property.js";import r from"./../../../../math/base/assert/is-nan.js";import n from"./../../../../math/base/special/ln.js";import o from"./../../../../constants/math/float64-ninf.js";import a from"./../../../../constants/math/float64-pinf.js";import f from"./../../../../utils/constant-function.js";var i=r,s=n,e=o,m=a;function u(t,r){return i(t)||i(r)||r<0||r===m?NaN:t<0?e:-t*r+s(r)}var p=f,c=r,l=n,j=o,N=a;function h(t){return c(t)||t<0||t===N?p(NaN):function(r){if(c(r))return NaN;if(r<0)return j;return-r*t+l(t)}}var b=t,d=u,v=h;b(d,"factory",v);export default d;
+//# sourceMappingURL=logpdf.js.map

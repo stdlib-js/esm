@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import n from"./../../assert/is-function.js";var r=n;function t(){var n,t,e;if((n=arguments.length)<2)throw new Error("insufficient input arguments. Must provide multiple functions to execute sequentially.");for(t=new Array(n),e=0;e<n;e++)if(t[e]=arguments[e],!r(t[e]))throw new TypeError("invalid argument. All arguments must be functions. Value: `"+t[e]+"`.");return u;function u(){var r,e,u;for(r=arguments[arguments.length-1],e=new Array(arguments.length-1),u=0;u<e.length;u++)e[u]=arguments[u];function i(e,l){return e?r(e):(u+=1)===n?r(null,l):void t[u](l,i)}e.push(i),t[u=0].apply(null,e)}}var e=t;export default e;
+//# sourceMappingURL=function-sequence.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-arraybuffer.js";import f from"./../array/float64.js";var t="function"==typeof ArrayBuffer?ArrayBuffer:null,e=r,n=f,a=t;function o(){var r,f,t;if("function"!=typeof a)return!1;try{t=new a(16),(r=e(t)&&"function"==typeof a.isView)&&((f=new n(t))[0]=-3.14,f[1]=NaN,r=r&&a.isView(f)&&16===t.byteLength&&-3.14===f[0]&&f[1]!=f[1])}catch(f){r=!1}return r}var i=o;export default i;
+//# sourceMappingURL=has-arraybuffer-support.js.map

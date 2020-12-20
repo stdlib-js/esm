@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-number.js";import t from"./../../math/base/assert/is-nan.js";import e from"./../../math/base/special/sqrt.js";var n=r.isPrimitive,i=t,a=e;function s(r){var t,e,s,u;if(s=0,u=0,arguments.length){if(!n(r))throw new TypeError("invalid argument. Must provide a number primitive. Value: `"+r+"`.");return e=r,o}return e=0,m;function m(r){return 0===arguments.length?0===u?null:1===u?i(s)?NaN:0/e:a(s/(u-1))/e:(s+=(t=r-e)*(r-(e+=t/(u+=1))),u<2?i(s)?NaN:0/e:a(s/(u-1))/e)}function o(r){return 0===arguments.length?0===u?null:a(s/u)/e:a((s+=(t=r-e)*t)/(u+=1))/e}}var u=s;export default u;
+//# sourceMappingURL=cv.js.map

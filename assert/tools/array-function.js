@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../is-array.js";var n=r;function t(r){if("function"!=typeof r)throw new TypeError("invalid argument. Must provide a function. Value: `"+r+"`.");return function(t){var e,i;if(!n(t))return!1;if(0===(e=t.length))return!1;for(i=0;i<e;i++)if(!1===r(t[i]))return!1;return!0}}var e=t;export default e;
+//# sourceMappingURL=array-function.js.map

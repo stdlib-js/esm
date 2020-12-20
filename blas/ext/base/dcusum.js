@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import n from"./dcusumkbn.js";var e=n;function a(r,n,a,o,t,u){return e(r,n,a,o,t,u)}var o=n.ndarray;function t(r,n,e,a,t,u,d,f){return o(r,n,e,a,t,u,d,f)}var u=r,d=a,f=t;u(d,"ndarray",f);export default d;
+//# sourceMappingURL=dcusum.js.map

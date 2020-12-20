@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-string.js";import i from"./is-nan.js";import t from"./is-integer.js";var e,n=Object.prototype.propertyIsEnumerable,o=n;function s(){return!o.call("beep","0")}var a=e=s(),l=r,m=i.isPrimitive,p=t.isPrimitive,u=n,f=a;function v(r,i){var t;return null!=r&&(!(t=u.call(r,i))&&f&&l(r)?!m(i=+i)&&p(i)&&i>=0&&i<r.length:t)}var c=v;export default c;
+//# sourceMappingURL=is-enumerable-property.js.map

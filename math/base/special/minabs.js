@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./abs.js";import t from"./min.js";import n from"./../../../constants/math/float64-pinf.js";var o=r,a=t,f=n;function i(r,t){var n,i,m;if(0===(n=arguments.length))return f;if(2===n)return a(o(r),o(t));for(i=new Array(n),m=0;m<n;m++)i[m]=o(arguments[m]);return a.apply(null,i)}var m=i;export default m;
+//# sourceMappingURL=minabs.js.map

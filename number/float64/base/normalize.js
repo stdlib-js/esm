@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../constants/math/float64-smallest-normal.js";import a from"./../../../math/base/assert/is-infinite.js";import r from"./../../../math/base/assert/is-nan.js";import s from"./../../../math/base/special/abs.js";var m=t,n=a,o=r,e=s,i=4503599627370496;function f(t,a){return o(a)||n(a)?(t[0]=a,t[1]=0,t):0!==a&&e(a)<m?(t[0]=a*i,t[1]=-52,t):(t[0]=a,t[1]=0,t)}var l=f;function p(t,a){return 1===arguments.length?l([0,0],t):l(t,a)}var h=p;export default h;
+//# sourceMappingURL=normalize.js.map

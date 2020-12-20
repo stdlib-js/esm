@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-positive-integer.js";import e from"./../../math/base/assert/is-nan.js";var i=r.isPrimitive,t=e;function a(r){var e,a,n,s;if(!i(r))throw new TypeError("invalid argument. Must provide a positive integer. Value: `"+r+"`.");return e=new Array(r),a=0,s=-1,n=0,function(i){var f;if(0===arguments.length)return 0===n?null:a;if(s=(s+1)%r,t(i))n=r,a=NaN;else if(n<r)n+=1,a+=i;else if(t(e[s])){for(n=1,a=i,f=0;f<r;f++)if(f!==s){if(t(e[f])){n=r,a=NaN;break}n+=1,a+=e[f]}}else!1===t(a)&&(a+=i-e[s]);return e[s]=i,a}}var n=a;export default n;
+//# sourceMappingURL=msum.js.map

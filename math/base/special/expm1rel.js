@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./expm1.js";import o from"./abs.js";import r from"./../../../constants/math/float64-eps.js";import m from"./../../../constants/math/float64-pinf.js";var a=t,s=o,f=r,n=m,p=709.782712893384;function i(t){return s(t)<=f?1:t>=p?n:a(t)/t}var e=i;export default e;
+//# sourceMappingURL=expm1rel.js.map

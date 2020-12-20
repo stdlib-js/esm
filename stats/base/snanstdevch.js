@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import a from"./../../number/float64/base/to-float32.js";import n from"./snanvariancech.js";import o from"./../../math/base/special/sqrt.js";var t=a,e=n,m=o;function f(r,a,n,o){return t(m(e(r,a,n,o)))}var i=a,s=n.ndarray,p=o;function u(r,a,n,o,t){return i(p(s(r,a,n,o,t)))}var l=r,c=f,d=u;l(c,"ndarray",d);export default c;
+//# sourceMappingURL=snanstdevch.js.map

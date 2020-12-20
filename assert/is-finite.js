@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import i from"./is-number.js";import e from"./../math/base/assert/is-finite.js";var t=i.isPrimitive,n=e;function o(r){return t(r)&&n(r)}var s=i.isObject,a=e;function m(r){return s(r)&&a(r.valueOf())}var u=o,f=m;function v(r){return u(r)||f(r)}var p=r,b=v,c=o,j=m;p(b,"isPrimitive",c),p(b,"isObject",j);export default b;
+//# sourceMappingURL=is-finite.js.map

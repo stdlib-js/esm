@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./relative-difference.js";import a from"./../assert/is-nan.js";import r from"./../../../constants/math/float64-pinf.js";import o from"./../../../constants/math/float64-max.js";import s from"./../../../constants/math/float64-eps.js";var m=t,f=a,n=r,e=o,i=s,p=e*i;function c(t,a,r){var o=m(t,a,r||"max-abs");return f(o)||o===n?o:o>=p?e:o/i}var j=c;export default j;
+//# sourceMappingURL=float64-epsilon-difference.js.map

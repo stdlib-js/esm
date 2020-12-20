@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import o from"./../assert/is-infinite.js";import t from"./pow.js";import i from"./floor.js";import s from"./floorn.js";var f=r,m=o,a=t,n=i,p=s;function e(r,o,t){var i,s;return f(r)||f(o)||f(t)||t<=0||m(o)||m(t)?NaN:m(r)||0===r?r:10===t?p(r,o):0===o||1===t?n(r):(s=a(t,-o),m(s)?r:(i=n(r*s)/s,m(i)?r:i))}var j=e;export default j;
+//# sourceMappingURL=floorb.js.map

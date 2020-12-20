@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-integer.js";import a from"./../assert/is-nan.js";import t from"./gamma-delta-ratio.js";import o from"./falling-factorial.js";var i,m=r,s=a,e=t;function f(r,a){var t,f;return i||(i=o),s(r)||!m(a)?NaN:r<0?(a<0&&(r+=a,a=-a,f=!0),t=(1&a?-1:1)*i(-r,a),f&&(t=1/t),t):0===a?1:0===r?a<0?-e(r+1,-a):0:r<1&&r+a<0?(t=e(1-r,-a),1&a?-t:t):1/e(r,a)}var n=f;export default n;
+//# sourceMappingURL=rising-factorial.js.map

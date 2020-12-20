@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/has-own-property.js";var e=void 0!==Object.getOwnPropertyDescriptor,t=Object.getOwnPropertyDescriptor;function n(r,e){var n;return null==r||void 0===(n=t(r,e))?null:n}var o=r;function a(r,e){return o(r,e)?{configurable:!0,enumerable:!0,writable:!0,value:r[e]}:null}var l,u=e,i=n,p=a,c=l=u?i:p;export default c;
+//# sourceMappingURL=property-descriptor.js.map

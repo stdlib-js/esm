@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./utils/define-read-only-property.js";import r from"./os/arch.js";import m from"./os/byte-order.js";import i from"./os/configdir.js";import s from"./os/float-word-order.js";import t from"./os/homedir.js";import p from"./os/num-cpus.js";import f from"./os/platform.js";import d from"./os/tmpdir.js";var e=o,j={};e(j,"ARCH",r),e(j,"BYTE_ORDER",m),e(j,"configdir",i),e(j,"FLOAT_WORD_ORDER",s),e(j,"homedir",t),e(j,"NUM_CPUS",p),e(j,"PLATFORM",f),e(j,"tmpdir",d);export default j;
+//# sourceMappingURL=os.js.map

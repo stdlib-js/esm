@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/keys.js";var n=r;function t(r){var n=typeof r;return null!==r&&("object"===n||"function"===n)}function u(r,n){var t;for(t=0;t<r.length;t++)if(r[t]===n)return!0;return!1}function e(r,f){var o,i,l;if(f.push(r),0===(o=n(r)).length)return!1;for(l=0;l<o.length;l++)if(t(i=r[o[l]])&&(u(f,i)||e(i,f)))return!0;return f.pop(r),!1}function f(r){return!!t(r)&&e(r,[])}var o=f;export default o;
+//# sourceMappingURL=is-circular.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./is-date-object.js";import r from"./is-integer.js";var t=e,i=r.isPrimitive;function a(e){var r;if(arguments.length)if(t(e))r=e.getFullYear();else{if(!i(e))return!1;r=e}else r=(new Date).getFullYear();return r%100==0?r%400==0:r%4==0}var l=a;export default l;
+//# sourceMappingURL=is-leap-year.js.map

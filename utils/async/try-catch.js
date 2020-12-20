@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-function.js";var n=r;function t(r,t,e){if(!n(r))throw new TypeError("invalid argument. First argument must be a function. Value: `"+r+"`.");if(!n(e))throw new TypeError("invalid argument. Last argument must be a function. Value: `"+e+"`.");r((function(r,n){if(r)return e(r,t);e(null,n)}))}var e=t;export default e;
+//# sourceMappingURL=try-catch.js.map

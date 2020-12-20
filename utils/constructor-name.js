@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./native-class.js";import t from"./../regexp/function-name.js";import e from"./../assert/is-buffer.js";var o=r,n=t,f=e;function i(r){var t,e,i;if(("Object"===(e=o(r).slice(8,-1))||"Error"===e)&&r.constructor){if("string"==typeof(i=r.constructor).name)return i.name;if(t=n.exec(i.toString()))return t[1]}return f(r)?"Buffer":e}var s=i;export default s;
+//# sourceMappingURL=constructor-name.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import n from"./../vendor/fs.js";var e=n.readdir;function t(){var r,n;for(r=new Array(arguments.length),n=0;n<r.length;n++)r[n]=arguments[n];e.apply(null,r)}var a=n.readdirSync;function o(r){try{return a(r)}catch(r){return r}}var l=r,d=t,f=o;l(d,"sync",f);export default d;
+//# sourceMappingURL=read-dir.js.map

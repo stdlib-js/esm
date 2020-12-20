@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import t from"./../assert/is-infinite.js";import s from"./../../../constants/math/float64-pinf.js";import o from"./sqrt.js";var a=r,i=t,n=s,f=o;function m(r,t){var s;return a(r)||a(t)?NaN:i(r)||i(t)?n:(r<0&&(r=-r),t<0&&(t=-t),r<t&&(s=t,t=r,r=s),0===r?0:r*f(1+(t/=r)*t))}var e=m;export default e;
+//# sourceMappingURL=hypot.js.map

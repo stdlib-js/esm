@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import e from"./typed-ctors.js";var t=r.isPrimitive,i=e;function n(){var r,e,n;if(e=(r=arguments.length)&&t(arguments[r-1])?arguments[r-=1]:"float64",null===(n=i(e)))throw new TypeError("invalid argument. Must provide a recognized data type. Value: `"+e+"`.");return r<=0?new n(0):1===r?new n(arguments[0]):2===r?new n(arguments[0],arguments[1]):new n(arguments[0],arguments[1],arguments[2])}var a=n;export default a;
+//# sourceMappingURL=typed.js.map

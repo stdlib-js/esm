@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./has-tostringtag-support.js";import r from"./../utils/native-class.js";var e=RegExp.prototype.exec,o=e;function a(t){try{return o.call(t),!0}catch(t){return!1}}var n=t,p=r,c=a,s=n();function i(t){return"object"==typeof t&&(t instanceof RegExp||(s?c(t):"[object RegExp]"===p(t)))}var u=i;export default u;
+//# sourceMappingURL=is-regexp.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./has-iterator-symbol-support.js";import t from"./../utils/constant-function.js";import o from"./is-primitive.js";import i from"./is-function.js";import m from"./../symbol/iterator.js";import s from"./is-iterator-like.js";var f=o,n=i,p=m,a=s;function e(r){var t;return!f(r)&&(t=r[p],n(t)&&0===t.length&&a(r[p]()))}var u,j=r,l=t,c=e,v=u=j()?c:l(!1);export default v;
+//# sourceMappingURL=is-iterable-like.js.map

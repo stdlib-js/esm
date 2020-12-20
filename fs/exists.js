@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import n from"./../utils/define-nonenumerable-read-only-property.js";import t from"./../vendor/fs.js";var r,e=t;function c(n,t){r(n,(function(n){if(2===t.length)return n?t(n,!1):t(null,!0);if(n)return t(!1);return t(!0)}))}r="function"==typeof e.access?e.access:e.stat;var o,s=t;function f(n){try{o(n)}catch(n){return!1}return!0}o="function"==typeof s.accessSync?s.accessSync:s.statSync;var u=n,a=c,i=f;u(a,"sync",i);export default a;
+//# sourceMappingURL=exists.js.map

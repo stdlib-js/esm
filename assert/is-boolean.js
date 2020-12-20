@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../utils/define-nonenumerable-read-only-property.js";import o from"./has-tostringtag-support.js";import r from"./../utils/native-class.js";function e(t){return"boolean"==typeof t}var n=Boolean.prototype.toString,i=n;function a(t){try{return i.call(t),!0}catch(t){return!1}}var u=o,s=r,c=a,f=u();function l(t){return"object"==typeof t&&(t instanceof Boolean||(f?c(t):"[object Boolean]"===s(t)))}var p=e,m=l;function j(t){return p(t)||m(t)}var v=t,y=j,b=e,d=l;v(y,"isPrimitive",b),v(y,"isObject",d);export default y;
+//# sourceMappingURL=is-boolean.js.map

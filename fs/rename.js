@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import n from"./../vendor/fs.js";var e=n.rename;function t(r,n,t){e(r,n,t)}var o=n.renameSync;function a(r,n){try{o(r,n)}catch(r){return r}return null}var u=r,f=t,m=a;u(f,"sync",m);export default f;
+//# sourceMappingURL=rename.js.map

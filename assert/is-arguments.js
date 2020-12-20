@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/native-class.js";import t from"./has-own-property.js";import e from"./is-enumerable-property.js";import o from"./is-array.js";import n from"./../math/base/assert/is-integer.js";import a from"./../constants/math/uint32-max.js";var s=r;function m(r){return"[object Arguments]"===s(r)}var i,l=m;function p(){return l(arguments)}var u=i=p(),f=t,c=e,j=o,h=n,g=a;function b(r){return null!==r&&"object"==typeof r&&!j(r)&&"number"==typeof r.length&&h(r.length)&&r.length>=0&&r.length<=g&&f(r,"callee")&&!c(r,"callee")}var v,y=u,x=m,d=b,w=v=y?x:d;export default w;
+//# sourceMappingURL=is-arguments.js.map

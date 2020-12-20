@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./abs.js";import t from"./exp.js";function e(r){var t,e;return 0===r?-.3333333333333332:((r<0?-r:r)<=1?(t=r*(r*(0*r-.9643991794250523)-99.28772310019185)-1614.6876844170845,e=4844.063053251255+r*(2235.4883906010045+r*(112.81167849163293+1*r))):(t=0+(r=1/r)*(r*(-1614.6876844170845*r-99.28772310019185)-.9643991794250523),e=1+r*(112.81167849163293+r*(2235.4883906010045+4844.063053251255*r))),t/e)}var f=r,n=t,i=e,o=88.02969193111305;function u(r){var t,e;if((e=f(r))>.5*o)return r<0?-1:1;if(e>=.625)e=1-2/((t=n(2*e))+1),r<0&&(e=-e);else{if(0===r)return r;e=r+r*(t=r*r)*i(t)}return e}var a=u;export default a;
+//# sourceMappingURL=tanh.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./is-int8array.js";import r from"./../constants/math/int8-max.js";import n from"./../constants/math/int8-min.js";var a="function"==typeof Int8Array?Int8Array:null,o=t,i=r,f=n,m=a;function s(){var t,r;if("function"!=typeof m)return!1;try{r=new m([1,3.14,-3.14,i+1]),t=o(r)&&1===r[0]&&3===r[1]&&-3===r[2]&&r[3]===f}catch(r){t=!1}return t}var c=s;export default c;
+//# sourceMappingURL=has-int8array-support.js.map

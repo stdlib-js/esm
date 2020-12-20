@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/get-prototype-of.js";import o from"./../utils/type-of.js";import t from"./is-error.js";var e=r,f=o,i=t;function u(r){if("object"!=typeof r||null===r)return!1;if(r instanceof URIError)return!0;if(i(r))for(;r;){if("urierror"===f(r))return!0;r=e(r)}return!1}var n=u;export default n;
+//# sourceMappingURL=is-uri-error.js.map

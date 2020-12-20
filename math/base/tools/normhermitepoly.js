@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import t from"./../assert/is-nan.js";import n from"./../assert/is-integer.js";import e from"./../../../utils/constant-function.js";var o=t,i=n;function f(r,t){var n,e,f,a;if(o(r)||o(t)||r<0||!i(r))return NaN;if(0===r)return 1;if(1===r)return t;for(e=1,f=0,a=r;a>1;a--)n=t*e-a*f,f=e,e=n;return t*e-f}var a=e,u=t,s=n;function m(r){return r<0||u(r)||!s(r)?a(NaN):0===r?a(1):function(t){var n,e,o,i;if(u(t))return NaN;for(e=1,o=0,i=r;i>1;i--)n=t*e-i*o,o=e,e=n;return t*e-o}}var p=r,c=f,N=m;p(c,"factory",N);export default c;
+//# sourceMappingURL=normhermitepoly.js.map

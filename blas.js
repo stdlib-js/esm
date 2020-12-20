@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import s from"./utils/define-read-only-property.js";import o from"./blas/base.js";import r from"./blas/ddot.js";import t from"./blas/dswap.js";import a from"./blas/ext.js";import m from"./blas/gdot.js";import p from"./blas/gswap.js";import d from"./blas/sdot.js";import f from"./blas/sswap.js";var i=s,l={};i(l,"base",o),i(l,"ddot",r),i(l,"dswap",t),i(l,"ext",a),i(l,"gdot",m),i(l,"gswap",p),i(l,"sdot",d),i(l,"sswap",f);export default l;
+//# sourceMappingURL=blas.js.map

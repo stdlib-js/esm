@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../math/base/assert/is-nan.js";import t from"./../../math/base/assert/is-positive-zero.js";var e=r,a=t;function i(){var r;return function(t){if(0===arguments.length)return void 0===r?null:r;(void 0===r||t>r||e(t)||t===r&&a(t))&&(r=t);return r}}var n=i;export default n;
+//# sourceMappingURL=max.js.map

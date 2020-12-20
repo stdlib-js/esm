@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import e from"./../../../math/base/special/abs.js";var n=e;function t(r,e,t){var a,f,o,i,u,m,p,s,l;if(r<=0)return 0;if(1===r||0===t)return e[0];for(o=t<0?(1-r)*t:0,a=0,f=0,i=0,l=0;l<r;l++)p=a+(m=e[o]),s=n(a)>=n(m)?a-p+m:m-p+a,a=p,p=i+s,u=n(i)>=n(s)?i-p+s:s-p+i,i=p,f+=u,o+=t;return a+i+f}var a=e;function f(r,e,n,t){var f,o,i,u,m,p,s,l,v;if(r<=0)return 0;if(1===r||0===n)return e[t];for(i=t,f=0,o=0,u=0,v=0;v<r;v++)s=f+(p=e[i]),l=a(f)>=a(p)?f-s+p:p-s+f,f=s,s=u+l,m=a(u)>=a(l)?u-s+l:l-s+u,u=s,o+=m,i+=n;return f+u+o}var o=r,i=t,u=f;o(i,"ndarray",u);export default i;
+//# sourceMappingURL=dsumkbn2.js.map

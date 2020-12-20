@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/tools/sum-series.js";import r from"./../../../../math/base/assert/is-nan.js";import t from"./../../../../math/base/special/factorialln.js";import s from"./../../../../math/base/special/factorial.js";import o from"./../../../../math/base/special/exp.js";import e from"./../../../../math/base/special/ln.js";var m=a,i=r,n=t,f=s,p=o,l=e;function c(a){var r,t;return t=1,r=a,function(){return(r*=a)*n(t+=1)/f(t)}}function u(a){var r,t;return i(a)||a<0?NaN:0===a?0:(r=c(a),t=a*(1-l(a)),t+=p(-a)*m(r))}var b=u;export default b;
+//# sourceMappingURL=entropy.js.map

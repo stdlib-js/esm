@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./mean.js";import a from"./../../math/base/special/abs.js";import t from"./../../math/base/special/atan.js";var e=r,n=a,m=t;function o(){var r=e();return function(a,t){if(0===arguments.length)return r();return r(m(n((t-a)/t)))}}var i=o;export default i;
+//# sourceMappingURL=maape.js.map

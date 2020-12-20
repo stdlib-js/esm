@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import e from"./../../math/base/assert/is-nanf.js";import t from"./../../math/base/assert/is-negative-zerof.js";var n=e,a=t;function f(r,e,t){var f,i,o,u;if(r<=0)return NaN;if(1===r||0===t)return e[0];for(f=e[i=t<0?(1-r)*t:0],u=1;u<r;u++){if(o=e[i+=t],n(o))return o;(o<f||o===f&&a(o))&&(f=o)}return f}var i=e,o=t;function u(r,e,t,n){var a,f,u,s;if(r<=0)return NaN;if(1===r||0===t)return e[n];for(a=e[f=n],s=1;s<r;s++){if(u=e[f+=t],i(u))return u;(u<a||u===a&&o(u))&&(a=u)}return a}var s=r,m=f,p=u;s(m,"ndarray",p);export default m;
+//# sourceMappingURL=smin.js.map

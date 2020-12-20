@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/special/digamma.js";import m from"./../../../../math/base/special/gamma.js";import r from"./../../../../math/base/special/ln.js";var t=a,e=m,s=r;function i(a,m){var r;return a<=0||m<=0?NaN:(r=a+s(m*e(a)),r-=(1+a)*t(a))}var o=i;export default o;
+//# sourceMappingURL=entropy.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import e from"./is-number.js";var i=e.isPrimitive;function t(r){return i(r)&&r>=0&&r<=1}var n=e.isObject;function u(r){return n(r)&&r.valueOf()>=0&&r.valueOf()<=1}var o=t,a=u;function f(r){return o(r)||a(r)}var m=r,s=f,v=t,l=u;m(s,"isPrimitive",v),m(s,"isObject",l);export default s;
+//# sourceMappingURL=is-probability.js.map

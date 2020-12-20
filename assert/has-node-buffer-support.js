@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import f from"./is-buffer.js";var r="function"==typeof Buffer?Buffer:null,t=f,n=r;function o(){var f,r;if("function"!=typeof n)return!1;try{r="function"==typeof n.from?n.from([1,2,3,4]):new n([1,2,3,4]),f=t(r)&&1===r[0]&&2===r[1]&&3===r[2]&&4===r[3]}catch(r){f=!1}return f}var e=o;export default e;
+//# sourceMappingURL=has-node-buffer-support.js.map

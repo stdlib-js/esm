@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../math/base/special/pow.js";var t=r,a=8;function e(r){var e,n;if(r.length!==a)throw new Error("invalid argument. Input string must have a length equal to "+a+". Value: `"+r+"`.");for(e=0,n=0;n<r.length;n++)"1"===r[n]&&(e+=t(2,a-n-1));return e}var n=e;export default n;
+//# sourceMappingURL=from-binary-string.js.map

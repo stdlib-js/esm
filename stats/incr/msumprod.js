@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-positive-integer.js";import i from"./msum.js";var e=r.isPrimitive,t=i;function n(r){var i;if(!e(r))throw new TypeError("invalid argument. Must provide a positive integer. Value: `"+r+"`.");return i=t(r),function(r,e){if(0===arguments.length)return i();return i(r*e)}}var o=n;export default o;
+//# sourceMappingURL=msumprod.js.map

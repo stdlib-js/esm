@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import e from"./../../number/float64/base/to-float32.js";var n=e;function t(r,e,t){var a,o,f,u;if(r<=0)return NaN;if(1===r||0===t)return e[0];for(o=t<0?(1-r)*t:0,a=0,f=0,u=0;u<r;u++)f+=1,a=n(a+n(n(e[o]-a)/f)),o+=t;return a}var a=e;function o(r,e,n,t){var o,f,u,i;if(r<=0)return NaN;if(1===r||0===n)return e[t];for(f=t,o=0,u=0,i=0;i<r;i++)u+=1,o=a(o+a(a(e[f]-o)/u)),f+=n;return o}var f=r,u=t,i=o;f(u,"ndarray",i);export default u;
+//# sourceMappingURL=smeanwd.js.map

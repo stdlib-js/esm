@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./../assert/is-function.js";import r from"./../assert/is-positive-integer.js";var t=e,i=r.isPrimitive;function n(e,r,n){var u,s;if(!t(e))throw new TypeError("invalid argument. First argument must be a function. Value: `"+e+"`.");if(arguments.length<2)s=e.length;else if(arguments.length>2){if(u=n,!i(s=r))throw new TypeError("invalid argument. Arity argument must be positive integer. Value: `"+s+"`.")}else i(r)?s=r:(s=e.length,u=r);return a([]);function a(r){return function(t){var i=r.slice();if(i.push(t),i.length<s)return a(i);return e.apply(u,i)}}}var u=n;export default u;
+//# sourceMappingURL=curry.js.map

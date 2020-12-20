@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import a from"./dvariancepn.js";import n from"./../../math/base/special/sqrt.js";var e=a,t=n;function o(r,a,n,o){return t(e(r,a,n,o)/r)}var i=a.ndarray,m=n;function p(r,a,n,e,t){return m(i(r,a,n,e,t)/r)}var f=r,s=o,u=p;f(s,"ndarray",u);export default s;
+//# sourceMappingURL=dsempn.js.map

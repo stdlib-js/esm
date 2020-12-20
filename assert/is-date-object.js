@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./has-tostringtag-support.js";import r from"./../utils/native-class.js";var a=Date.prototype.getDay,e=a;function o(t){try{return e.call(t),!0}catch(t){return!1}}var n=t,c=r,s=o,i=n();function p(t){return"object"==typeof t&&(t instanceof Date||(i?s(t):"[object Date]"===c(t)))}var u=p;export default u;
+//# sourceMappingURL=is-date-object.js.map

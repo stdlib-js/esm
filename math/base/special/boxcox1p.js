@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./log1p.js";import o from"./abs.js";import t from"./expm1.js";import m from"./../assert/is-nan.js";import a from"./../../../constants/math/float64-ninf.js";var s=r,f=o,n=t,e=m,i=a;function p(r,o){var t;return e(r)||e(o)||r<-1?NaN:-1===r&&o<0?i:(t=s(r),f(o)<1e-19||f(t)<1e-289&&f(o)<1e273?t:n(o*t)/o)}var j=p;export default j;
+//# sourceMappingURL=boxcox1p.js.map

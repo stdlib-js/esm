@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./property-symbols.js";import t from"./property-names.js";import o from"./get-prototype-of.js";var e=r,n=t,f=o;function p(r,t){var o;for(o=0;o<r.length;o++)if(r[o]===t)return!0;return!1}function u(r){var t,o,u,i;if(null==r)return[];o=Object(r),t=[];do{for(u=n(o),i=0;i<u.length;i++)!1===p(t,u[i])&&t.push(u[i]);for(u=e(o),i=0;i<u.length;i++)!1===p(t,u[i])&&t.push(u[i]);o=f(o)}while(o);return t}var i=u;export default i;
+//# sourceMappingURL=properties-in.js.map

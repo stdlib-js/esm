@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+function e(e,o,n,r,l){if(arguments.length>3){if("closed"!==r&&"open"!==r)throw new TypeError("invalid argument. `left` must be one of the following strings: 'closed' or 'open'. Value: `"+r+"`.");if("closed"!==l&&"open"!==l)throw new TypeError("invalid argument. `right` must be one of the following strings: 'closed' or 'open'. Value: `"+l+"`.")}return"closed"===r||void 0===r?"closed"===l||void 0===l?e>=o&&e<=n:e>=o&&e<n:"closed"===l||void 0===l?e>o&&e<=n:e>o&&e<n}var o=e;export default o;
+//# sourceMappingURL=is-between.js.map

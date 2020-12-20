@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-object.js";import e from"./../assert/is-function.js";import t from"./define-memoized-property.js";var i=r,a=e,o=t;function n(r,e,t){if(!i(r))throw new TypeError("invalid argument. First argument must be an object. Value: `"+r+"`.");if(!a(t))throw new TypeError("invalid argument. Third argument must be a function. Value: `"+t+"`.");o(r,e,{configurable:!1,enumerable:!0,writable:!1,value:t})}var m=n;export default m;
+//# sourceMappingURL=define-memoized-read-only-property.js.map

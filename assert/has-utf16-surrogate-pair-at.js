@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import i from"./is-string.js";import r from"./is-nonnegative-integer.js";var e=i.isPrimitive,t=r.isPrimitive,n=55296,o=56319,a=56320,s=57343;function v(i,r){var v,u;if(!e(i))throw new TypeError("invalid argument. Must provide a string. Value: `"+i+"`.");if(!t(r))throw new TypeError("invalid argument. Must provide a valid position (nonnegative integer). Value: `"+r+"`.");if(r>=i.length)throw new RangeError("invalid argument. Must provide a valid position (within string bounds). Value: `"+r+"`.");return v=i.charCodeAt(r),u=i.charCodeAt(r+1),v>=n&&v<=o&&u>=a&&u<=s}var u=v;export default u;
+//# sourceMappingURL=has-utf16-surrogate-pair-at.js.map

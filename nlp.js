@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./utils/define-read-only-property.js";import o from"./nlp/expand-contractions.js";import t from"./nlp/lda.js";import e from"./nlp/porter-stemmer.js";import p from"./nlp/tokenize.js";var m=r,n={};m(n,"expandContractions",o),m(n,"lda",t),m(n,"porterStemmer",e),m(n,"tokenize",p);export default n;
+//# sourceMappingURL=nlp.js.map

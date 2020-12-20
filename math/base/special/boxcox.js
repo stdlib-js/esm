@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./abs.js";import o from"./../assert/is-nan.js";import t from"./../assert/is-positive-zero.js";import s from"./ln.js";import m from"./expm1.js";import i from"./../../../constants/math/float64-ninf.js";var a=r,f=o,n=t,e=s,p=m,j=i;function l(r,o){return f(r)||f(o)?NaN:n(r)&&o<0?j:a(o)<1e-19?e(r):p(o*e(r))/o}var u=l;export default u;
+//# sourceMappingURL=boxcox.js.map

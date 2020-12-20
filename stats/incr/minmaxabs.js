@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-array-like-object.js";import t from"./../../math/base/assert/is-nan.js";import a from"./../../constants/math/float64-pinf.js";import e from"./../../math/base/special/abs.js";var n=r,s=t,o=a,i=e;function m(r){var t,a,e,m;if(0===arguments.length)t=[0,0];else{if(!n(r))throw new TypeError("invalid argument. Output argument must be an array-like object. Value: `"+r+"`.");t=r}return a=o,e=0,m=!1,l;function l(r){var n;return 0===arguments.length?!1===m?null:(t[0]=a,t[1]=e,t):(m=!0,s(r)?(a=r,e=r):((n=i(r))<a&&(a=n),n>e&&(e=n)),t[0]=a,t[1]=e,t)}}var l=m;export default l;
+//# sourceMappingURL=minmaxabs.js.map

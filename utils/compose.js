@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";var n=r;function t(){var r,t,e;if((r=arguments.length)<2)throw new Error("insufficient input arguments. Must provide multiple functions to compose.");for(t=new Array(r),e=0;e<r;e++)if(t[e]=arguments[e],!n(t[e]))throw new TypeError("invalid argument. All arguments must be functions. Value: `"+t[e]+"`.");return o;function o(){var n,e;for(n=new Array(arguments.length),e=0;e<n.length;e++)n[e]=arguments[e];for(n=t[r-1].apply(null,n),e=r-2;e>=0;e--)n=t[e](n);return n}}var e=t;export default e;
+//# sourceMappingURL=compose.js.map

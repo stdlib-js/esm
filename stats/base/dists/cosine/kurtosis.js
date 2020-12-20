@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/assert/is-nan.js";import r from"./../../../../math/base/special/pow.js";import t from"./../../../../constants/math/float64-pi-squared.js";var s=a,o=r,m=t;function e(a,r){var t;return s(a)||s(r)||r<=0?NaN:(t=6*(90-m*m),t/=5*o(m-6,2))}var i=e;export default i;
+//# sourceMappingURL=kurtosis.js.map

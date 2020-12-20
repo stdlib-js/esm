@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import n from"./../../assert/is-nonnegative-number.js";var r=n.isPrimitive;function e(n){var e,i,t,a,o;if(!r(n))throw new TypeError("invalid argument. Must provide a nonnegative number. Value: `"+n+"`.");if(n<0||n>1)throw new RangeError("invalid argument. Must provide a nonnegative number on the interval [0,1]. Value: `"+n+"`.");return o=1-n,function(r){if(0===arguments.length)return void 0===i?null:i;void 0===i?(a=r,i=0):(a+=e=n*(t=r-a),i=o*(i+t*e));return i}}var i=e;export default i;
+//# sourceMappingURL=ewvariance.js.map

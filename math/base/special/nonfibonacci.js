@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import t from"./../assert/is-integer.js";import o from"./ln.js";import s from"./floor.js";import a from"./../../../constants/math/float64-phi.js";import m from"./../../../constants/math/float64-pinf.js";var f=r,i=t,n=o,p=s,e=a,j=m,l=2.23606797749979,c=n(e);function h(r){var t,o;return f(r)||!1===i(r)||r<1||r===j?NaN:(t=n((r+=1)*l)/c,o=n(l*(r+t)-5+3/r)/c,p(r+o-2))}var u=h;export default u;
+//# sourceMappingURL=nonfibonacci.js.map

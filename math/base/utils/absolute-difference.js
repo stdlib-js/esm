@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../constants/math/float64-pinf.js";import t from"./../special/abs.js";import s from"./../assert/is-nan.js";import a from"./../assert/is-infinite.js";var i=r,o=t,n=s,f=a;function m(r,t){return n(r)||n(t)?NaN:f(r)||f(t)?r===t?NaN:i:o(r-t)}var e=m;export default e;
+//# sourceMappingURL=absolute-difference.js.map

@@ -1,0 +1,90 @@
+#!/usr/bin/env bash
+#
+# @license Apache-2.0
+#
+# Copyright (c) 2019 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# A git hook called by `git merge`, which afters when a `git pull` is performed on a local repository.
+#
+# This hook is called with the following arguments:
+#
+# * `$1` - status flag specifying whether or not the merge being done is a squash merge
+#
+# This hook cannot does __not__ affect the outcome of `git merge` and is not executed if merge fails due to conflicts.
+
+
+# VARIABLES #
+
+is_squash="$1"
+
+
+# FUNCTIONS #
+
+# Defines an error handler.
+#
+# $1 - error status
+on_error() {
+	cleanup
+	exit "$1"
+}
+
+# Runs clean-up tasks.
+cleanup() {
+	echo '' >&2
+}
+
+# Checks if Node.js module dependencies have changed.
+check_node_deps() {
+	echo 'Checking changed files...' >&2
+
+	# Get a list of changed files:
+	local changed_files=$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)
+
+	# See if the root `package.json` is one of the files which changed:
+	local package_json=$(echo "${changed_files}" | grep '^package\.json$')
+
+	# If the root `package.json` changed, return a non-zero status...
+	if [[ -n "${package_json}" ]]; then
+		echo 'Root package.json changed.' >&2
+		return 1
+	fi
+	return 0
+}
+
+# Cleans Node.js module dependencies.
+clean_node_deps() {
+	echo 'Removing Node.js module dependencies...' >&2
+	make clean-node
+}
+
+# Installs Node.js module dependencies.
+install_node_deps() {
+	echo 'Installing Node.js module dependencies...'
+	make install
+}
+
+# Main execution sequence.
+main() {
+	check_node_deps
+	if [[ "$?" -ne 0 ]]; then
+		clean_node_deps
+		install_node_deps
+	fi
+	cleanup
+	exit 0
+}
+
+# Run main:
+main

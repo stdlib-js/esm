@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import n from"./../assert/is-function.js";var r=n;function t(){var n=arguments[arguments.length-1];if(!r(n))throw new TypeError("invalid argument. Callback argument must be a function. Value: `"+n+"`.");function t(){n(new Error("invalid operation. The environment does not support reading from `stdin`."))}setTimeout(t,0)}export default t;
+//# sourceMappingURL=read-stdin.js.map

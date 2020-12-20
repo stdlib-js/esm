@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./../../../assert/has-generator-support.js";import r from"./../special/abs.js";import t from"./../../../constants/math/float64-eps.js";var a=r,o=t,n=1e6;function i(e,r){var t,i,s,l,f;if(f={},arguments.length>1&&(f=r),t=f.tolerance||o,s=f.maxTerms||n,l=f.initialValue||0,!0===("function"==typeof e.next)){for(i of e)if(a(t*(l+=i))>=a(i)||0==--s)break}else do{l+=i=e()}while(a(t*l)<a(i)&&--s);return l}var s=r,l=t,f=1e6;function m(e,r){var t,a,o,n,i;i={},arguments.length>1&&(i=r),t=i.tolerance||l,o=i.maxTerms||f,n=i.initialValue||0;do{n+=a=e()}while(s(t*n)<s(a)&&--o);return n}var p,u=e,c=i,h=m,v=p=u()?c:h;export default v;
+//# sourceMappingURL=sum-series.js.map

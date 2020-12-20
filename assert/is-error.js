@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/get-prototype-of.js";import t from"./../utils/native-class.js";var o=r,e=t;function f(r){if("object"!=typeof r||null===r)return!1;if(r instanceof Error)return!0;for(;r;){if("[object Error]"===e(r))return!0;r=o(r)}return!1}var i=f;export default i;
+//# sourceMappingURL=is-error.js.map

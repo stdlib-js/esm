@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-read-only-property.js";import o from"./f/cdf.js";import f from"./f/ctor.js";import m from"./f/entropy.js";import s from"./f/kurtosis.js";import t from"./f/mean.js";import e from"./f/mode.js";import i from"./f/pdf.js";import p from"./f/quantile.js";import j from"./f/skewness.js";import n from"./f/stdev.js";import a from"./f/variance.js";var d=r,u={};d(u,"cdf",o),d(u,"F",f),d(u,"entropy",m),d(u,"kurtosis",s),d(u,"mean",t),d(u,"mode",e),d(u,"pdf",i),d(u,"quantile",p),d(u,"skewness",j),d(u,"stdev",n),d(u,"variance",a);export default u;
+//# sourceMappingURL=f.js.map

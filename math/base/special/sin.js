@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../number/float64/base/get-high-word.js";import e from"./kernel-cos.js";import t from"./kernel-sin.js";import o from"./rempio2.js";var n=r,a=e,i=t,s=o,f=2147483647,m=2146435072,u=1072243195,c=1045430272,p=[0,0];function l(r){var e;if(e=n(r),(e&=f)<=u)return e<c?r:i(r,0);if(e>=m)return NaN;switch(3&s(r,p)){case 0:return i(p[0],p[1]);case 1:return a(p[0],p[1]);case 2:return-i(p[0],p[1]);default:return-a(p[0],p[1])}}var j=l;export default j;
+//# sourceMappingURL=sin.js.map

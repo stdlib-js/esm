@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+function r(r,n,t,e){var a,u,f,o;for(a=n.length,u=e,f=e,o=0;o<a;o++)t[o]>0?f+=t[o]*(n[o]-1):t[o]<0&&(u+=t[o]*(n[o]-1));return r[0]=u,r[1]=f,r}var n=r;function t(r,t,e,a){return 3===arguments.length?n(new Array(2),r,t,e):n(r,t,e,a)}var e=t;export default e;
+//# sourceMappingURL=minmax-view-buffer-index.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../../../utils/define-read-only-property.js";import r from"./chi/cdf.js";import i from"./chi/ctor.js";import m from"./chi/entropy.js";import s from"./chi/kurtosis.js";import t from"./chi/logpdf.js";import e from"./chi/mean.js";import p from"./chi/mode.js";import f from"./chi/pdf.js";import c from"./chi/quantile.js";import d from"./chi/skewness.js";import h from"./chi/stdev.js";import j from"./chi/variance.js";var n=o,a={};n(a,"cdf",r),n(a,"Chi",i),n(a,"entropy",m),n(a,"kurtosis",s),n(a,"logpdf",t),n(a,"mean",e),n(a,"mode",p),n(a,"pdf",f),n(a,"quantile",c),n(a,"skewness",d),n(a,"stdev",h),n(a,"variance",j);export default a;
+//# sourceMappingURL=chi.js.map

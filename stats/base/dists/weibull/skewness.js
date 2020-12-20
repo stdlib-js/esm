@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../../../math/base/assert/is-nan.js";import r from"./variance.js";import m from"./../../../../math/base/special/gamma.js";import s from"./../../../../math/base/special/sqrt.js";import t from"./mean.js";import o from"./../../../../math/base/special/pow.js";var e=a,i=r,p=m,f=s,n=t,j=o;function c(a,r){var m,s,t,o;return e(a)||e(r)||a<=0||r<=0?NaN:(o=n(a,r),m=i(a,r),s=f(m),t=p(1+3/a)*j(r,3),t-=3*o*m+j(o,3),t/=j(s,3))}var b=c;export default b;
+//# sourceMappingURL=skewness.js.map

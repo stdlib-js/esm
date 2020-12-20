@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./abs.js";import t from"./max.js";import a from"./../../../constants/math/float64-pinf.js";var n=r,o=t,f=a;function m(r,t){var a,m,e;if(0===(a=arguments.length))return f;if(2===a)return o(n(r),n(t));for(m=new Array(a),e=0;e<a;e++)m[e]=n(arguments[e]);return o.apply(null,m)}var e=m;export default e;
+//# sourceMappingURL=maxabs.js.map

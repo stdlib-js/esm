@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../number/float64/base/to-float32.js";import t from"./../assert/is-nanf.js";import o from"./../assert/is-infinitef.js";import s from"./../../../constants/math/float32-pinf.js";import a from"./sqrt.js";var f=r,i=t,m=o,n=s,e=a;function p(r,t){var o;return i(r)||i(t)?NaN:m(r)||m(t)?n:(r<0&&(r=-r),t<0&&(t=-t),r<t&&(o=t,t=r,r=o),0===r?0:(t=f(t/r),f(r*f(e(f(1+f(t*t)))))))}var j=p;export default j;
+//# sourceMappingURL=hypotf.js.map

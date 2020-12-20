@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./property-names.js";import e from"./../assert/is-nonenumerable-property.js";var t=r,n=e;function o(r){var e,o,a;if(null==r)return[];for(e=t(Object(r)),a=0,o=0;o<e.length;o++)n(r,e[o])&&(e[a]=e[o],a+=1);return e.length=a,e}var a=o;export default a;
+//# sourceMappingURL=nonenumerable-property-names.js.map

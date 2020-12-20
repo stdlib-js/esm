@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+function r(r,e,n,a,i,o){var t,f,u,l,m;for(t=r.length,f=1,m=0;m<t;m++)f*=r[m];if("clamp"===o)i<0?i=0:i>=f&&(i=f-1);else if("wrap"===o)i<0?(i+=f)<0&&0!==(i%=f)&&(i+=f):i>=f&&(i-=f)>=f&&(i%=f);else if(i<0||i>=f)throw new RangeError("invalid argument. Linear index must not exceed array dimensions. Number of array elements: "+f+". Value: `"+i+"`.");if(0===n)return i;if(u=n,"column-major"===a){for(m=0;m<t;m++)i-=l=i%r[m],i/=r[m],u+=l*e[m];return u}for(m=t-1;m>=0;m--)i-=l=i%r[m],i/=r[m],u+=l*e[m];return u}var e=r;export default e;
+//# sourceMappingURL=vind2bind.js.map

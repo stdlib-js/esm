@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../utils/inherit.js";import r from"./../base/ctor.js";var i="▀",e="▄",n="─",a=" ";function s(){var t,r,s,o;if(0===(r=this._data.length))return"";for(t="",o=0;o<r;o++)s=this._data[o],this._isDefined(s,o)?t+=s<0?e:0===s?n:i:t+=a;return t}var o=t,h=r;function l(){var t;return t=arguments.length,this instanceof l?(0===t?h.call(this):1===t?h.call(this,arguments[0]):h.call(this,arguments[0],arguments[1]),this):0===t?new l:1===t?new l(arguments[0]):new l(arguments[0],arguments[1])}o(l,h),l.prototype._render=s;var f=l;export default f;
+//# sourceMappingURL=tristate.js.map

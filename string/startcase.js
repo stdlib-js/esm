@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import t from"./../regexp/whitespace.js";var e=r.isPrimitive,i=t;function a(r){var t,a,s,o;if(!e(r))throw new TypeError("invalid argument. Must provide a primitive string. Value: `"+r+"`.");for(t=!0,a="",o=0;o<r.length;o++)s=r.charAt(o),i.test(s)?(a+=s,t=!0):t?(a+=s.toUpperCase(),t=!1):a+=s;return a}var s=a;export default s;
+//# sourceMappingURL=startcase.js.map

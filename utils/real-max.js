@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../constants/math/float16-max.js";import a from"./../constants/math/float32-max.js";import r from"./../constants/math/float64-max.js";var o=t,e=a,n=r;function s(t){switch(t){case"float64":return n;case"float32":return e;case"float16":return o;default:throw new TypeError("invalid argument. Must provide a recognized type. Value: `"+t+"`.")}}var m=s;export default m;
+//# sourceMappingURL=real-max.js.map

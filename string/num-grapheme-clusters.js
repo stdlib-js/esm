@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import e from"./next-grapheme-cluster-break.js";var t=r.isPrimitive,i=e;function a(r){var e,a,n;if(!t(r))throw new TypeError("invalid argument. Must provide a string. Value: `"+r+"`.");for(e=0,n=i(r,a=0);-1!==n;)e+=1,n=i(r,a=n);return a<r.length&&(e+=1),e}var n=a;export default n;
+//# sourceMappingURL=num-grapheme-clusters.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import t from"./is-number.js";import i from"./../constants/math/float64-pinf.js";import n from"./../constants/math/float64-ninf.js";import e from"./../math/base/assert/is-integer.js";var o=i,s=n,a=e;function m(r){return r<o&&r>s&&a(r)}var f=t.isPrimitive,u=m;function p(r){return f(r)&&u(r)}var c=t.isObject,v=m;function j(r){return c(r)&&v(r.valueOf())}var l=p,b=j;function d(r){return l(r)||b(r)}var h=r,O=d,y=p,P=j;h(O,"isPrimitive",y),h(O,"isObject",P);export default O;
+//# sourceMappingURL=is-integer.js.map

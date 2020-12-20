@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../assert/is-nan.js";import r from"./../assert/is-infinite.js";import t from"./pow.js";import m from"./floor.js";import s from"./ceil.js";import a from"./log10.js";import n from"./../../../constants/math/float64-max-base10-exponent.js";import i from"./../../../constants/math/float64-min-base10-exponent-subnormal.js";var e=o,f=r,p=t,j=m,l=s,c=a,u=n,x=i,b=1e308,v=1e-323;function h(o){var r,t,m,s,a,n;return e(o)||f(o)||0===o?o:(o<0?(o=-o,r=-1):r=1,n=c(o),t=j(n),m=l(n),t===x?r*v:t===u?r*b:(s=p(10,t))+((a=p(10,m))-s)/2>o?r*s:r*a)}var d=h;export default d;
+//# sourceMappingURL=round10.js.map

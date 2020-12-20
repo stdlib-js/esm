@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/keys.js";import e from"./../assert/is-string.js";var o={Error:Error,TypeError:TypeError,SyntaxError:SyntaxError,ReferenceError:ReferenceError,URIError:URIError,EvalError:EvalError,RangeError:RangeError},t=r,a=e.isPrimitive,s=o;function n(r,e){var o,n,E,i,f,m;if(e&&e.type&&a(e.message)&&(n=s[e.type])){for(i=new n(e.message),E=t(e),m=0;m<E.length;m++)if("type"!==(f=E[m])&&"message"!==f&&"name"!==f){if("stack"===f){if(!a(e[f]))continue;o=!0}i[f]=e[f]}return!o&&a(i.stack)&&(i.stack=""),i}return e}var E=n;export default E;
+//# sourceMappingURL=reviver.js.map

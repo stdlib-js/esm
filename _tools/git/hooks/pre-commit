@@ -1,0 +1,92 @@
+#!/usr/bin/env bash
+#
+# @license Apache-2.0
+#
+# Copyright (c) 2019 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# A git hook called by `git commit`. If this scripts exits with a non-zero status, the commit will be aborted.
+#
+# This hook is called with no arguments.
+
+# VARIABLES #
+
+# Determine root directory:
+root=$(git rev-parse --show-toplevel)
+
+
+# FUNCTIONS #
+
+# Defines an error handler.
+#
+# $1 - error status
+on_error() {
+	cleanup
+	exit "$1"
+}
+
+# Runs clean-up tasks.
+cleanup() {
+	echo '' >&2
+}
+
+# Checks for non-ASCII filenames (to ensure cross platform portability).
+check_filenames() {
+	local commit=$(git rev-parse --verify HEAD)
+	local against
+	if [[ -z "${commit}" ]]; then
+		# This is the initial commit, so we diff against an empty tree object:
+		against='4b825dc642cb6eb9a060e54bf8d69288fbee4904'
+	else
+		against='HEAD'
+	fi
+	# We exploit the fact that the printable range starts with the space character and ends with the tilde. Note that the use of brackets around a `tr` range is okay here, (for portability to Solaris 10's /usr/bin/tr, it's even required), since the square bracket bytes happen to fall in the designated range.
+	local num_files=$(git diff --cached --name-only --diff-filter=A -z "${against}" | LC_ALL=C tr -d '[ -~]\0' | wc -c)
+
+	if [[ "${num_files}" -ne 0 ]]; then
+		echo 'Error: Attempting to add a non-ASCII filename. Non-ASCII filenames limit cross-platform portability. Please rename offending files before committing.' >&2
+		return 1
+	fi
+	return 0
+}
+
+# Lints staged files.
+run_lint() {
+	local changed_files
+	local files
+
+	# Get the set of changed files (added and modified):
+	changed_files=$(git diff --name-only --cached --diff-filter AM)
+
+	# TODO: lint files (e.g., Markdown linting, etc)
+
+	return 0
+}
+
+# Main execution sequence.
+main() {
+	check_filenames
+	if [[ "$?" -ne 0 ]]; then
+		on_error 1
+	fi
+	run_lint
+	if [[ "$?" -ne 0 ]]; then
+		on_error 1
+	fi
+	cleanup
+	exit 0
+}
+
+# Run main:
+main

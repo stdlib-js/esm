@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+function e(e){return 0===e?.0416666666666666:.0416666666666666+e*(2480158728947673e-20*e-.001388888888887411)}function r(e){return 0===e?-2.7557314351390663e-7:e*(2.087572321298175e-9+-11359647557788195e-27*e)-2.7557314351390663e-7}var n=e,t=r;function u(e,r){var u,a,f,o;return f=(o=e*e)*o,a=o*n(o),a+=f*f*t(o),(f=1-(u=.5*o))+(1-f-u+(o*a-e*r))}var a=u;export default a;
+//# sourceMappingURL=kernel-cos.js.map

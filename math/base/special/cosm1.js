@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./cos.js";function e(r){return 0===r?.041666666666666664:.041666666666666664+r*(r*(2480158730157055e-20+r*(r*(2.087675428708152e-9+r*(4737750796424621e-29*r-1147028484342536e-26))-2.755731921499979e-7))-.0013888888888888872)}var t=r,n=e,o=.7853981633974483;function u(r){var e;return r<-o||r>o?t(r)-1:-.5*(e=r*r)+e*e*n(e)}var a=u;export default a;
+//# sourceMappingURL=cosm1.js.map

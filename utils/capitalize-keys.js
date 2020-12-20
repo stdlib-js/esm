@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/has-own-property.js";var e=r;function t(r){var t,o;if("object"!=typeof r||null===r)throw new TypeError("invalid argument. Must provide an object. Value: `"+r+"`.");for(o in t={},r)e(r,o)&&(""===o?t[o]=r[o]:t[o.charAt(0).toUpperCase()+o.slice(1)]=r[o]);return t}var o=t;export default o;
+//# sourceMappingURL=capitalize-keys.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../math/base/special/frexp.js";import e from"./../../math/base/special/ldexp.js";var t=r,a=e,n=[0,0];function i(){var r,e,i;return r=.5,i=1,function(o){if(0===arguments.length)return void 0===e?null:e;t(n,o),r*=n[0],i+=n[1],r>-.5&&r<.5&&(t(n,r),r=n[0],i+=n[1]);return e=a(r,i)}}var o=i;export default o;
+//# sourceMappingURL=prod.js.map

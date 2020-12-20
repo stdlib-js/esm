@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./float64.js";import i from"./float32.js";import o from"./int16.js";import r from"./int32.js";import m from"./int8.js";import n from"./uint16.js";import f from"./uint32.js";import u from"./uint8.js";import p from"./uint8c.js";var j=t,s=i,a=o,l=r,c=m,e=n,v=f,d=u,x=p,b={float64:j,float32:s,int16:a,int32:l,int8:c,uint16:e,uint32:v,uint8:d,uint8c:x},g=b;function h(t){return g[t]||null}var k=h;export default k;
+//# sourceMappingURL=typed-ctors.js.map

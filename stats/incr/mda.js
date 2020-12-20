@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./mean.js";import e from"./../../math/base/special/signum.js";import t from"./../../math/base/special/kronecker-delta.js";var a=r,n=e,o=t;function i(){var r,e,t,i;return r=a(),function(a,m){var s,f;if(0===arguments.length)return r();void 0===e&&(e=!0,t=a,i=m);return s=n(a-t),f=n(m-i),t=a,i=m,r(o(s,f))}}var m=i;export default m;
+//# sourceMappingURL=mda.js.map

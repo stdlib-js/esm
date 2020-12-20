@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-string.js";import i from"./replace.js";var t=r.isPrimitive,e=i,a=/[!"'(),–.:;<>?`{}|~\/\\\[\]]/g;function o(r){if(!t(r))throw new TypeError("invalid argument. Must provide a string primitive. Value: `"+r+"`.");return e(r,a,"")}var s=o;export default s;
+//# sourceMappingURL=remove-punctuation.js.map

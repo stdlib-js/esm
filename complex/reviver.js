@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-number.js";import e from"./float64.js";import t from"./float32.js";var m=e,o=t,i={Complex128:m,Complex64:o},p=r.isPrimitive,a=i;function f(r,e){var t;return e&&e.type&&p(e.re)&&p(e.im)&&(t=a[e.type])?new t(e.re,e.im):e}var s=f;export default s;
+//# sourceMappingURL=reviver.js.map

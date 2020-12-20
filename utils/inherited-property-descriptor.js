@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../constants/math/float64-max-safe-integer.js";import t from"./../assert/is-positive-integer.js";import e from"./property-descriptor.js";import i from"./get-prototype-of.js";var o=r,n=t.isPrimitive,s=e,a=i;function f(r,t,e){var i,f,m,p;if(arguments.length>2){if(!n(e))throw new TypeError("invalid argument. Third argument must be a positive integer. Value: `"+e+"`.");m=e}else m=o;if(null==r)return null;for(f=a(r),p=1;f&&p<=m;){if(i=s(f,t))return i;f=a(f),p+=1}return null}var m=f;export default m;
+//# sourceMappingURL=inherited-property-descriptor.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-positive-integer.js";import e from"./mmean.js";import i from"./../../math/base/special/abs.js";import t from"./../../math/base/special/atan.js";var a=r.isPrimitive,o=e,s=i,n=t;function m(r){var e;if(!a(r))throw new TypeError("invalid argument. Must provide a positive integer. Value: `"+r+"`.");return e=o(r),function(r,i){if(0===arguments.length)return e();return e(n(s((i-r)/i)))}}var p=m;export default p;
+//# sourceMappingURL=mmaape.js.map

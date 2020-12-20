@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./is-nonnegative-integer.js";import t from"./../constants/array/max-typed-array-length.js";var r=e.isPrimitive,n=t;function o(e){return null!==e&&"object"==typeof e&&r(e.length)&&e.length<=n&&"number"==typeof e.BYTES_PER_ELEMENT&&"number"==typeof e.byteOffset&&"number"==typeof e.byteLength}var a=o;export default a;
+//# sourceMappingURL=is-typed-array-like.js.map

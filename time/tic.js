@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../utils/global.js";import e from"./../assert/is-object.js";import r from"./../math/base/special/modf.js";import t from"./../math/base/special/round.js";import i from"./../assert/is-function.js";var n=i,m=n(Date.now);function a(){return(new Date).getTime()}var s,w,f,b=m,p=a,c=s=b?Date.now:p,d=o,u=e,N=r,j=t,l=c,v=d();function D(){var o,e;return e=w()/1e3,(o=N(e))[1]=j(1e9*o[1]),o}f=u(v.performance)?v.performance:{},w=f.now?f.now.bind(f):f.mozNow?f.mozNow.bind(f):f.msNow?f.msNow.bind(f):f.oNow?f.oNow.bind(f):f.webkitNow?f.webkitNow.bind(f):l;export default D;
+//# sourceMappingURL=tic.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import a from"./dvariancewd.js";import e from"./../../math/base/special/sqrt.js";var n=a,t=e;function o(r,a,e,o){return t(n(r,a,e,o)/r)}var i=a.ndarray,m=e;function d(r,a,e,n,t){return m(i(r,a,e,n,t)/r)}var f=r,p=o,s=d;f(p,"ndarray",s);export default p;
+//# sourceMappingURL=dsemwd.js.map

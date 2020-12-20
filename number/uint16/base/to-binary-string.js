@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../string/left-pad.js";import t from"./../../../math/base/special/floor.js";var a=t,o=16;function f(r){var t,f,e="";for(t=o;r>0&&t;)e=(f=r/2)===(r=a(f))?"0"+e:"1"+e,t-=1;return e}var e=r,n=f,i=16;function m(r){var t;return t=n(r),t=e(t,i,"0")}var p=m;export default p;
+//# sourceMappingURL=to-binary-string.js.map

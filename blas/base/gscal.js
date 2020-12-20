@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";var f=5;function n(r,n,e,t){var o,i;if(r<=0||t<=0||1===n)return e;if(1===t){if((o=r%f)>0)for(i=0;i<o;i+=1)e[i]*=n;if(r<f)return e;for(i=o;i<r;i+=f)e[i]*=n,e[i+1]*=n,e[i+2]*=n,e[i+3]*=n,e[i+4]*=n;return e}for(r*=t,i=0;i<r;i+=t)e[i]*=n;return e}var e=5;function t(r,f,n,t,o){var i,u,a;if(r<=0||1===f)return n;if(i=o,1===t){if((u=r%e)>0)for(a=0;a<u;a++)n[i]*=f,i+=t;if(r<e)return n;for(a=u;a<r;a+=e)n[a]*=f,n[a+1]*=f,n[a+2]*=f,n[a+3]*=f,n[a+4]*=f;return n}for(a=0;a<r;a++)n[i]*=f,i+=t;return n}var o=r,i=n,u=t;o(i,"ndarray",u);export default i;
+//# sourceMappingURL=gscal.js.map

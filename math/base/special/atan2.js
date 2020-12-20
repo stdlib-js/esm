@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../assert/is-infinite.js";import r from"./copysign.js";import o from"./../../../number/float64/base/signbit.js";import s from"./../assert/is-nan.js";import a from"./atan.js";import i from"./../../../constants/math/float64-pinf.js";import m from"./../../../constants/math/float64-pi.js";var n=t,f=r,p=o,e=s,j=a,c=i,l=m;function u(t,r){var o;return e(r)||e(t)?NaN:n(r)?r===c?n(t)?f(l/4,t):f(0,t):n(t)?f(3*l/4,t):f(l,t):n(t)?f(l/2,t):0===t?r>=0&&!p(r)?f(0,t):f(l,t):0===r?f(l/2,t):(o=j(t/r),r<0?o<=0?o+l:o-l:o)}var b=u;export default b;
+//# sourceMappingURL=atan2.js.map

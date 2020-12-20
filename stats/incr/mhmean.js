@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../assert/is-positive-integer.js";import e from"./mmean.js";var i=r.isPrimitive,t=e;function n(r){var e;if(!i(r))throw new TypeError("invalid argument. Must provide a positive integer. Value: `"+r+"`.");return e=t(r),function(r){var i;if(0===arguments.length)return null===(i=e())?i:1/i;return 1/e(1/r)}}var o=n;export default o;
+//# sourceMappingURL=mhmean.js.map

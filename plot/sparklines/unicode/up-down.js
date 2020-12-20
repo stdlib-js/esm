@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../utils/inherit.js";import r from"./../base/ctor.js";var i="↑",e="↓",n=" ";function a(){var t,r,a,s;if(0===(r=this._data.length))return"";for(t="",s=0;s<r;s++)a=this._data[s],this._isDefined(a,s)?t+=1===a?i:-1===a?e:n:t+=n;return t}var s=t,o=r;function h(){var t;return t=arguments.length,this instanceof h?(0===t?o.call(this):1===t?o.call(this,arguments[0]):o.call(this,arguments[0],arguments[1]),this):0===t?new h:1===t?new h(arguments[0]):new h(arguments[0],arguments[1])}s(h,o),h.prototype._render=a;var l=h;export default l;
+//# sourceMappingURL=up-down.js.map

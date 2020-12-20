@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-windows.js";import t from"./../process/env.js";var s,e=r,o=t;function i(){var r;return r=e?o.TEMP||o.TMP||(o.SystemRoot||o.windir||"")+"\\temp":o.TMPDIR||o.TMP||o.TEMP||"/tmp",s.test(r)&&(r=r.slice(0,-1)),r}s=e?/[^:]\\$/:/.\/$/;var m=i;export default m;
+//# sourceMappingURL=tmpdir.js.map

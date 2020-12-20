@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./define-property.js";var r=e;function t(e,t,o){var n;if("object"!=typeof e||null===e)throw new TypeError("invalid argument. Source argument must be an object. Value: `"+e+"`.");if("object"!=typeof o||null===o)throw new TypeError("invalid argument. Target argument must be an object. Value: `"+o+"`.");return void 0!==(n=Object.getOwnPropertyDescriptor(e,t))&&(delete e[t],r(o,t,n),!0)}var o=t;export default o;
+//# sourceMappingURL=move-property.js.map

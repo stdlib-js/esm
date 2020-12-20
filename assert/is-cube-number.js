@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import e from"./is-integer.js";import i from"./../math/base/special/cbrt.js";import t from"./../math/base/special/floor.js";var o=e.isPrimitive,a=i,n=t;function s(r){var e;return!!o(r)&&(e=n(a(r)+.5))*e*e===r}var m=e.isObject,f=i,u=t;function p(r){var e,i;return!!m(r)&&(i=r.valueOf(),(e=u(f(i)+.5))*e*e===i)}var v=s,c=p;function l(r){return v(r)||c(r)}var b=r,j=l,d=s,O=p;b(j,"isPrimitive",d),b(j,"isObject",O);export default j;
+//# sourceMappingURL=is-cube-number.js.map

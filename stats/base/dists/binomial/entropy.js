@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../../math/base/assert/is-nonnegative-integer.js";import t from"./../../../../math/base/assert/is-nan.js";import a from"./../../../../math/base/special/exp.js";import s from"./../../../../math/base/special/ln.js";import e from"./../../../../constants/math/float64-pinf.js";var o=r,i=t,m=a,n=s,f=e;function p(r,t){var a,s,e,p;if(i(r)||i(t)||t<0||t>1||!o(r)||r===f)return NaN;if(0===t||1===t||0===r)return 0;for(a=r*n(p=1-t),s=m(a)*a,e=1;e<=r;e++)a+=n((r-e+1)/e)+n(t/p),s+=m(a)*a;return-s}var h=p;export default h;
+//# sourceMappingURL=entropy.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import e from"./../assert/is-boolean.js";function r(){return new Function("return this;")()}var o="object"==typeof self?self:null,t="object"==typeof window?window:null,n="object"==typeof global?global:null,i=e.isPrimitive,l=r,u=o,f=t,a=n;function b(e){if(arguments.length){if(!i(e))throw new TypeError("invalid argument. Must provide a boolean primitive. Value: `"+e+"`.");if(e)return l()}if(u)return u;if(f)return f;if(a)return a;throw new Error("unexpected error. Unable to resolve global object.")}var s=b;export default s;
+//# sourceMappingURL=global.js.map

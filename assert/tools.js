@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-read-only-property.js";import o from"./tools/array-function.js";import t from"./tools/array-like-function.js";import a from"./tools/typed-array-function.js";var f=r,i={};f(i,"arrayfcn",o),f(i,"arraylikefcn",t),f(i,"typedarrayfcn",a);export default i;
+//# sourceMappingURL=tools.js.map

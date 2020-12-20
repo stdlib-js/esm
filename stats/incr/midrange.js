@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../constants/math/float64-pinf.js";import n from"./../../constants/math/float64-ninf.js";import r from"./../../math/base/assert/is-nan.js";var a=t,o=n,f=r;function s(){var t,n=o,r=a;return function(a){if(0===arguments.length)return void 0===t?null:t/2;f(a)&&(r=a,n=a);a>n&&(n=a);a<r&&(r=a);return(t=n+r)/2}}var i=s;export default i;
+//# sourceMappingURL=midrange.js.map

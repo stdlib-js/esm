@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../utils/define-nonenumerable-read-only-property.js";import e from"./../../blas/ext/base/dssum.js";var n=e;function a(r,e,a,t){var f,o,u,i,s,d,m;if(d=r-e,r<=0||d<=0)return NaN;if(1===r||0===t)return 0;for(f=n(r,a,t)/r,o=t<0?(1-r)*t:0,u=0,i=0,m=0;m<r;m++)u+=(s=a[o]-f)*s,i+=s,o+=t;return u/d-i/r*(i/d)}var t=e.ndarray;function f(r,e,n,a,f){var o,u,i,s,d,m,l;if(m=r-e,r<=0||m<=0)return NaN;if(1===r||0===a)return 0;for(o=t(r,n,a,f)/r,u=f,i=0,s=0,l=0;l<r;l++)i+=(d=n[u]-o)*d,s+=d,u+=a;return i/m-s/r*(s/m)}var o=r,u=a,i=f;o(u,"ndarray",i);export default u;
+//# sourceMappingURL=dsvariancepn.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+var t=Object.prototype.isPrototypeOf;function e(e,n){var o=typeof n;if(null===n||"object"!==o&&"function"!==o)throw new TypeError("invalid argument. Second argument must be either an object (except null) or a function. Value: `"+n+"`.");return o=typeof e,null!==e&&("object"===o||"function"===o)&&t.call(n,e)}var n=e;export default n;
+//# sourceMappingURL=is-prototype-of.js.map

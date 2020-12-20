@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../assert/is-nan.js";import o from"./cospi.js";import r from"./pow.js";import a from"./../../../constants/math/float64-phi.js";import s from"./../../../constants/math/float64-pinf.js";import m from"./../../../constants/math/float64-ninf.js";var n=t,f=o,i=r,p=a,j=s,c=m,e=2.23606797749979;function h(t){var o;return n(t)||t===j||t===c?NaN:((o=i(p,t))-f(t)/o)/e}var l=h;export default l;
+//# sourceMappingURL=binet.js.map

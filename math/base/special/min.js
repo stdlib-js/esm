@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-negative-zero.js";import t from"./../assert/is-nan.js";import n from"./../../../constants/math/float64-ninf.js";import o from"./../../../constants/math/float64-pinf.js";var a=r,s=t,f=n,i=o;function e(r,t){var n,o,e,m;if(2===(n=arguments.length))return s(r)||s(t)?NaN:r===f||t===f?f:r===t&&0===r?a(r)?r:t:r<t?r:t;for(o=i,m=0;m<n;m++){if(s(e=arguments[m])||e===f)return e;(e<o||e===o&&0===e&&a(e))&&(o=e)}return o}var m=e;export default m;
+//# sourceMappingURL=min.js.map

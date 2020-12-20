@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../utils/define-nonenumerable-read-only-property.js";import n from"./scusumkbn.js";var e=n;function a(r,n,a,o,t,u){return e(r,n,a,o,t,u)}var o=n.ndarray;function t(r,n,e,a,t,u,f,i){return o(r,n,e,a,t,u,f,i)}var u=r,f=a,i=t;u(f,"ndarray",i);export default f;
+//# sourceMappingURL=scusum.js.map

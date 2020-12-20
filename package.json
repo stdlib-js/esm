@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "name": "@stdlib/esm",
+  "version": "0.0.0",
+  "description": "ES Module distribution for stdlib, a standard library for JavaScript and Node.js.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/esm/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/esm/graphs/contributors"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "clean": "npm run clean:api_docs:app",
+    "install:development": "npm run install:production",
+    "install:production": "npm install && npm run install:stdlib",
+    "install:stdlib": "mkdir -p tmp && git clone https://github.com/stdlib-js/stdlib.git --depth=1 --branch=esm ./tmp/stdlib && cd ./tmp/stdlib && npm install"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/esm.git"
+  },
+  "homepage": "https://github.com/stdlib-js/esm",
+  "keywords": [
+    "stdlib",
+    "stdlib-js",
+    "stdlib.js",
+    "js-stdlib",
+    "stdlibjs",
+    "standard",
+    "std",
+    "library",
+    "lib",
+    "esm",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

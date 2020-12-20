@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./is-uint8clampedarray.js";var t="function"==typeof Uint8ClampedArray?Uint8ClampedArray:null,n=r,a=t;function e(){var r,t;if("function"!=typeof a)return!1;try{t=new a([-1,0,1,3.14,4.99,255,256]),r=n(t)&&0===t[0]&&0===t[1]&&1===t[2]&&3===t[3]&&5===t[4]&&255===t[5]&&255===t[6]}catch(t){r=!1}return r}var i=e;export default i;
+//# sourceMappingURL=has-uint8clampedarray-support.js.map

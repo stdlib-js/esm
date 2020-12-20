@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../../../array/uint32.js";import t from"./../../../array/float64.js";import a from"./../../../assert/is-little-endian.js";var n,e,o,f=a;!0===f?(e=1,o=0):(e=0,o=1);var i=n={HIGH:e,LOW:o},u=r,m=t,s=i,l=new m(1),p=new u(l.buffer),v=s.HIGH,H=s.LOW;function j(r,t){return l[0]=t,r[0]=p[v],r[1]=p[H],r}var c=j;function d(r,t){return 1===arguments.length?c([0,0],r):c(r,t)}var w=d;export default w;
+//# sourceMappingURL=to-words.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../../../../math/base/assert/is-nan.js";import a from"./../../../../math/base/special/sqrt.js";import r from"./../../../../constants/math/float64-sqrt-two.js";import s from"./../../../../constants/math/float64-pi.js";var o=t,m=a,n=r,f=s,i=m(4-f);function e(t){return o(t)||t<0?NaN:i*t/n}var p=e;export default p;
+//# sourceMappingURL=stdev.js.map

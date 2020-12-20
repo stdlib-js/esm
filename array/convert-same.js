@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-collection.js";import e from"./dtype.js";import t from"./ctors.js";var a=r,n=e,o=t;function i(r,e){var t,i,u,m,l;if(!a(r))throw new TypeError("invalid argument. First argument must be an array-like object. Value: `"+r+"`.");if(t=n(e),null===(i=o(t)))throw new TypeError("invalid argument. Second argument must have a recognized data type. Value: `"+t+"`.");if(m=r.length,"generic"===t){for(u=[],l=0;l<m;l++)u.push(r[l]);return u}for(u=new i(m),l=0;l<m;l++)u[l]=r[l];return u}var u=i;export default u;
+//# sourceMappingURL=convert-same.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import i from"./is-integer.js";var e=i.isPrimitive;function t(r){return e(r)&&r%2==0}var n=i.isObject;function o(r){return n(r)&&r%2==0}var u=t,s=o;function a(r){return u(r)||s(r)}var f=r,m=a,v=t,c=o;f(m,"isPrimitive",v),f(m,"isObject",c);export default m;
+//# sourceMappingURL=is-even.js.map

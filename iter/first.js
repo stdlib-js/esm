@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-iterator-like.js";import e from"./../assert/has-own-property.js";var t=r,a=e;function o(r){var e;if(!t(r))throw new TypeError("invalid argument. Must provide an iterator. Value: `"+r+"`.");if(!(e=r.next()).done||a(e,"value"))return e.value}var i=o;export default i;
+//# sourceMappingURL=first.js.map

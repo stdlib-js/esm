@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-nan.js";import t from"./asin.js";import o from"./sqrt.js";import a from"./../../../constants/math/float64-fourth-pi.js";var s=r,m=t,f=o,i=a,n=6123233995736766e-32;function p(r){var t;return s(r)||r<-1||r>1?NaN:r>.5?2*m(f(.5-.5*r)):(t=i-m(r),t+=n,t+=i)}var e=p;export default e;
+//# sourceMappingURL=acos.js.map

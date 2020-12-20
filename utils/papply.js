@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../assert/is-function.js";var n=r;function t(r){var t,e;if(!n(r))throw new TypeError("invalid argument. First argument must be a function. Value: `"+r+"`.");for(t=new Array(arguments.length-1),e=1;e<arguments.length;e++)t[e-1]=arguments[e];return a;function a(){var n,e;for(n=t.slice(),e=0;e<arguments.length;e++)n.push(arguments[e]);return r.apply(null,n)}}var e=t;export default e;
+//# sourceMappingURL=papply.js.map

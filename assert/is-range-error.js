@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/get-prototype-of.js";import o from"./../utils/type-of.js";import t from"./is-error.js";var e=r,f=o,i=t;function n(r){if("object"!=typeof r||null===r)return!1;if(r instanceof RangeError)return!0;if(i(r))for(;r;){if("rangeerror"===f(r))return!0;r=e(r)}return!1}var u=n;export default u;
+//# sourceMappingURL=is-range-error.js.map

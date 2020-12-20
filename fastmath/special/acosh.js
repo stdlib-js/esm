@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import a from"./../../math/base/assert/is-infinite.js";import s from"./../../math/base/assert/is-nan.js";import r from"./../../math/base/special/ln.js";import t from"./../../math/base/special/sqrt.js";var e=a,i=s,m=r,o=t;function n(a){return a<1?NaN:i(a)||e(a)?a:m(a+o(a+1)*o(a-1))}var f=n;export default f;
+//# sourceMappingURL=acosh.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./is-typed-array.js";import e from"./has-own-property.js";var f=t,o=e;function n(t){return f(t)&&"function"==typeof t.fieldOf&&"function"==typeof t.findField&&"function"==typeof t.ind2key&&"function"==typeof t.key2ind&&"function"==typeof t.lastFieldOf&&"function"==typeof t.subtuple&&o(t,"fields")&&o(t,"orderedFields")}var i=n;export default i;
+//# sourceMappingURL=is-named-typed-tuple-like.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./utils/define-read-only-property.js";import m from"./complex/cmplx.js";import r from"./complex/conj.js";import e from"./complex/float32.js";import p from"./complex/float64.js";import l from"./complex/imag.js";import i from"./complex/real.js";import t from"./complex/reim.js";import x from"./complex/reviver.js";import f from"./complex/reviver-float32.js";import c from"./complex/reviver-float64.js";var j=o,v={};j(v,"complex",m),j(v,"conj",r),j(v,"Complex64",e),j(v,"Complex128",p),j(v,"imag",l),j(v,"real",i),j(v,"reim",t),j(v,"reviveComplex",x),j(v,"reviveComplex64",f),j(v,"reviveComplex128",c);export default v;
+//# sourceMappingURL=complex.js.map

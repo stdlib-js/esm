@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../assert/is-function.js";import o from"./native-class.js";var r=Object.getPrototypeOf;function n(t){return t.__proto__}var e=o,c=n;function u(t){var o=c(t);return o||null===o?o:"[object Function]"===e(t.constructor)?t.constructor.prototype:t instanceof Object?Object.prototype:null}var a,f=t,i=r,l=u,p=a=f(Object.getPrototypeOf)?i:l,s=p;function j(t){return null==t?null:(t=Object(t),s(t))}var O=j;export default O;
+//# sourceMappingURL=get-prototype-of.js.map

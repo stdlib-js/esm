@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import t from"./../math/base/assert/is-integer.js";import r from"./../constants/array/max-array-length.js";var e=t,n=r;function a(t){return null!=t&&"function"!=typeof t&&"number"==typeof t.length&&e(t.length)&&t.length>=0&&t.length<=n}var o=a;export default o;
+//# sourceMappingURL=is-array-like.js.map

@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import o from"./../../../utils/define-read-only-property.js";import r from"./cauchy/cdf.js";import c from"./cauchy/ctor.js";import m from"./cauchy/entropy.js";import f from"./cauchy/logcdf.js";import p from"./cauchy/logpdf.js";import t from"./cauchy/median.js";import a from"./cauchy/mode.js";import i from"./cauchy/pdf.js";import d from"./cauchy/quantile.js";var e=o,u={};e(u,"cdf",r),e(u,"Cauchy",c),e(u,"entropy",m),e(u,"logcdf",f),e(u,"logpdf",p),e(u,"median",t),e(u,"mode",a),e(u,"pdf",i),e(u,"quantile",d);export default u;
+//# sourceMappingURL=cauchy.js.map

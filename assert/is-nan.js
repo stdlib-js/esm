@@ -1,0 +1,3 @@
+// This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+import r from"./../utils/define-nonenumerable-read-only-property.js";import e from"./is-number.js";import i from"./../math/base/assert/is-nan.js";var t=e.isPrimitive,n=i;function o(r){return t(r)&&n(r)}var s=e.isObject,a=i;function m(r){return s(r)&&a(r.valueOf())}var u=o,f=m;function v(r){return u(r)||f(r)}var p=r,b=v,c=o,j=m;p(b,"isPrimitive",c),p(b,"isObject",j);export default b;
+//# sourceMappingURL=is-nan.js.map
