@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@stdlib/esm",
   "version": "0.0.0",
   "description": "ES Module distribution for stdlib, a standard library for JavaScript and Node.js.",
