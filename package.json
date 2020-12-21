@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "ES module distribution for Stdlib, a standard library for JavaScript and Node.js.",
   "license": "Apache-2.0",
+  "exports": {
+    "import": "./index.js",
+    "default": "./index.js"
+  },
   "author": {
     "name": "The Stdlib Authors",
     "url": "https://github.com/stdlib-js/esm/graphs/contributors"
@@ -43,5 +47,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@skypack/package-check": "^0.2.2"
+  }
 }

@@ -19,6 +19,7 @@
 # Files #
 #########
 TODO.md
+Makefile
 
 
 # Directories #
@@ -27,6 +28,7 @@ build/
 reports/
 support/
 tmp/
+_tools/
 
 
 # Node.js #
