@@ -27,7 +27,7 @@ limitations under the License.
 
 # ESM
 
-> ES Module distribution for [stdlib][stdlib], a standard library for JavaScript and Node.js.
+> ES module distribution for [stdlib][stdlib], a standard library for JavaScript and Node.js.
 
 Stdlib is a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more. This is the GitHub repository for the stdlib website.
 
