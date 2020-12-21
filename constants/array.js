@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import r from"./../utils/define-read-only-property.js";import a from"./array/max-array-length.js";import t from"./array/max-typed-array-length.js";var e=r,o={};e(o,"MAX_ARRAY_LENGTH",a),e(o,"MAX_TYPED_ARRAY_LENGTH",t);export default o;
+import r from"./../utils/define-read-only-property.js";import a from"./array/max-array-length.js";export{default as MAX_ARRAY_LENGTH}from"@stdlib/constants/array/max-array-length";import t from"./array/max-typed-array-length.js";export{default as MAX_TYPED_ARRAY_LENGTH}from"@stdlib/constants/array/max-typed-array-length";var e=r,o={};e(o,"MAX_ARRAY_LENGTH",a),e(o,"MAX_TYPED_ARRAY_LENGTH",t);export default o;
 //# sourceMappingURL=array.js.map

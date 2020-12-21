@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import r from"./../utils/define-read-only-property.js";import e from"./float64/base.js";var o=r,t={};o(t,"base",e);export default t;
+import e from"./../utils/define-read-only-property.js";import r from"./float64/base.js";export{default as base}from"@stdlib/number/float64/base";var a=e,o={};a(o,"base",r);export default o;
 //# sourceMappingURL=float64.js.map

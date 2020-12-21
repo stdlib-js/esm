@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import e from"./../utils/define-read-only-property.js";import r from"./iter/ops.js";import o from"./iter/sequences.js";import s from"./iter/special.js";var i=e,p={};i(p,"ops",r),i(p,"sequences",o),i(p,"special",s);export default p;
+import e from"./../utils/define-read-only-property.js";import s from"./iter/ops.js";export{default as ops}from"@stdlib/math/iter/ops";import t from"./iter/sequences.js";export{default as sequences}from"@stdlib/math/iter/sequences";import r from"./iter/special.js";export{default as special}from"@stdlib/math/iter/special";var o=e,i={};o(i,"ops",s),o(i,"sequences",t),o(i,"special",r);export default i;
 //# sourceMappingURL=iter.js.map

@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import r from"./../utils/define-read-only-property.js";import o from"./tools/array-function.js";import t from"./tools/array-like-function.js";import a from"./tools/typed-array-function.js";var f=r,i={};f(i,"arrayfcn",o),f(i,"arraylikefcn",t),f(i,"typedarrayfcn",a);export default i;
+import r from"./../utils/define-read-only-property.js";import a from"./tools/array-function.js";export{default as arrayfcn}from"@stdlib/assert/tools/array-function";import t from"./tools/array-like-function.js";export{default as arraylikefcn}from"@stdlib/assert/tools/array-like-function";import o from"./tools/typed-array-function.js";export{default as typedarrayfcn}from"@stdlib/assert/tools/typed-array-function";var f=r,e={};f(e,"arrayfcn",a),f(e,"arraylikefcn",t),f(e,"typedarrayfcn",o);export default e;
 //# sourceMappingURL=tools.js.map
