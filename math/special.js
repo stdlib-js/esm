@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import a from"./../utils/define-read-only-property.js";import s from"./special/abs.js";export{default as abs}from"@stdlib/math/special/abs";import i from"./special/iabs.js";export{default as iabs}from"@stdlib/math/special/iabs";var r=a,t={};r(t,"abs",s),r(t,"iabs",i);export default t;
+import s from"./../utils/define-read-only-property.js";import a from"./special/abs.js";export{default as abs}from"./special/abs.js";import r from"./special/iabs.js";export{default as iabs}from"./special/iabs.js";var e=s,i={};e(i,"abs",a),e(i,"iabs",r);export default i;
 //# sourceMappingURL=special.js.map

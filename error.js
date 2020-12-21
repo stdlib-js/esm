@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import r from"./utils/define-read-only-property.js";import o from"./error/reviver.js";export{default as reviveError}from"@stdlib/error/reviver";import e from"./error/to-json.js";export{default as error2json}from"@stdlib/error/to-json";var t=r,s={};t(s,"reviveError",o),t(s,"error2json",e);export default s;
+import r from"./utils/define-read-only-property.js";import o from"./error/reviver.js";export{default as reviveError}from"./error/reviver.js";import e from"./error/to-json.js";export{default as error2json}from"./error/to-json.js";var t=r,s={};t(s,"reviveError",o),t(s,"error2json",e);export default s;
 //# sourceMappingURL=error.js.map

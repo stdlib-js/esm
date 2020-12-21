@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import s from"./../utils/define-read-only-property.js";import t from"./utils/incrspace.js";export{default as incrspace}from"@stdlib/math/utils/incrspace";import a from"./utils/linspace.js";export{default as linspace}from"@stdlib/math/utils/linspace";import e from"./utils/logspace.js";export{default as logspace}from"@stdlib/math/utils/logspace";var i=s,l={};i(l,"incrspace",t),i(l,"linspace",a),i(l,"logspace",e);export default l;
+import s from"./../utils/define-read-only-property.js";import e from"./utils/incrspace.js";export{default as incrspace}from"./utils/incrspace.js";import r from"./utils/linspace.js";export{default as linspace}from"./utils/linspace.js";import p from"./utils/logspace.js";export{default as logspace}from"./utils/logspace.js";var a=s,o={};a(o,"incrspace",e),a(o,"linspace",r),a(o,"logspace",p);export default o;
 //# sourceMappingURL=utils.js.map

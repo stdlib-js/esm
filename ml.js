@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import i from"./utils/define-read-only-property.js";import n from"./ml/online-binary-classification.js";export{default as onlineBinaryClassification}from"@stdlib/ml/online-binary-classification";import o from"./ml/online-sgd-regression.js";export{default as onlineSGDRegression}from"@stdlib/ml/online-sgd-regression";var e=i,s={};e(s,"onlineBinaryClassification",n),e(s,"onlineSGDRegression",o);export default s;
+import i from"./utils/define-read-only-property.js";import n from"./ml/online-binary-classification.js";export{default as onlineBinaryClassification}from"./ml/online-binary-classification.js";import o from"./ml/online-sgd-regression.js";export{default as onlineSGDRegression}from"./ml/online-sgd-regression.js";var e=i,s={};e(s,"onlineBinaryClassification",n),e(s,"onlineSGDRegression",o);export default s;
 //# sourceMappingURL=ml.js.map

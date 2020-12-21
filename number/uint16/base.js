@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import r from"./../../utils/define-read-only-property.js";import t from"./base/from-binary-string.js";export{default as fromBinaryStringUint16}from"@stdlib/number/uint16/base/from-binary-string";import i from"./base/to-binary-string.js";export{default as toBinaryStringUint16}from"@stdlib/number/uint16/base/to-binary-string";var n=r,o={};n(o,"fromBinaryStringUint16",t),n(o,"toBinaryStringUint16",i);export default o;
+import r from"./../../utils/define-read-only-property.js";import t from"./base/from-binary-string.js";export{default as fromBinaryStringUint16}from"./base/from-binary-string.js";import i from"./base/to-binary-string.js";export{default as toBinaryStringUint16}from"./base/to-binary-string.js";var n=r,o={};n(o,"fromBinaryStringUint16",t),n(o,"toBinaryStringUint16",i);export default o;
 //# sourceMappingURL=base.js.map

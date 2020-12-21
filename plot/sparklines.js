@@ -1,3 +1,3 @@
 // This file is a part of stdlib. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-import e from"./../utils/define-read-only-property.js";import s from"./sparklines/base.js";export{default as base}from"@stdlib/plot/sparklines/base";import o from"./sparklines/unicode.js";export{default as unicode}from"@stdlib/plot/sparklines/unicode";var r=e,a={};r(a,"base",s),r(a,"unicode",o);export default a;
+import e from"./../utils/define-read-only-property.js";import s from"./sparklines/base.js";export{default as base}from"./sparklines/base.js";import r from"./sparklines/unicode.js";export{default as unicode}from"./sparklines/unicode.js";var o=e,a={};o(a,"base",s),o(a,"unicode",r);export default a;
 //# sourceMappingURL=sparklines.js.map
