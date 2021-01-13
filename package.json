@@ -3,10 +3,8 @@
   "version": "0.0.2",
   "description": "ES module distribution for Stdlib, a standard library for JavaScript and Node.js.",
   "license": "Apache-2.0",
-  "exports": {
-    "import": "./index.js",
-    "default": "./index.js"
-  },
+  "main": "./index.js",
+  "type": "module",
   "author": {
     "name": "The Stdlib Authors",
     "url": "https://github.com/stdlib-js/esm/graphs/contributors"
@@ -24,7 +22,6 @@
     "install:production": "npm install && npm run install:stdlib",
     "install:stdlib": "mkdir -p tmp && git clone https://github.com/stdlib-js/stdlib.git --depth=1 --branch=esm ./tmp/stdlib && cd ./tmp/stdlib && npm install"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git://github.com/stdlib-js/esm.git"
